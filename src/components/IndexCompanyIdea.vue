@@ -24,9 +24,6 @@ export default {
         name: 'service'
       })
     }
-  },
-  created() {
-    document.title = '腾宣威'
   }
 }
 </script>
