@@ -8,9 +8,6 @@ import 'element-ui/lib/theme-default/index.css'
 // 引入vue-amap
 import AMap from 'vue-amap';
 
-
-
-
 import 'animate.css'
 
 Vue.config.productionTip = false
@@ -25,7 +22,6 @@ AMap.initAMapApiLoader({
   // 插件集合
   plugin: ['AMap.Autocomplete', 'AMap.PlaceSearch', 'AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType', 'AMap.PolyEditor', 'AMap.CircleEditor']
 });
-
 
 document.title = '腾宣威'
 /* eslint-disable no-new */
