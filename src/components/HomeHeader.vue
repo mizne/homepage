@@ -4,7 +4,7 @@
       <h2 style="margin-top: 0;">腾宣威</h2>
     </div>
     <div class="tabs el-col-12 el-row">
-      <div class="item index el-col-3" :class="{'selected': selectedTab === 'index'}">
+      <div class="item index el-col-3" :class="{'selected': selectedTab === ''}">
         <router-link to="/">首页</router-link>
       </div>
       <div class="item service el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'service'}">
@@ -29,13 +29,16 @@ export default {
   data () {
     return {
       msg: 'home-header',
-      selectedTab: 'index'
+      selectedTab: ''
     }
   },
   watch: {
     '$route' (to, from) {
       this.selectedTab = to.path.slice(1)
     }
+  },
+  created() {
+    this.selectedTab = this.$route.path.slice(1)
   }
 }
 </script>
@@ -55,7 +58,6 @@ export default {
     .item {
       padding: 0.5rem 0.5rem;
       border-radius: 20px;
-      cursor: pointer;
 
       &:hover, &.selected {
         background-color: red;
