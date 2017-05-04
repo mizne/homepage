@@ -1,7 +1,7 @@
 <template>
   <div class="home-header el-row">
     <div class="logo el-col-12">
-      腾宣威
+      <h2 style="margin-top: 0;">腾宣威</h2>
     </div>
     <div class="tabs el-col-12 el-row">
       <div class="item index el-col-3" :class="{'selected': selectedTab === 'index'}">
