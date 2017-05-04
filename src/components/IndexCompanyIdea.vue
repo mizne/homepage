@@ -22,7 +22,7 @@
 
 <script>
 	export default {
-		name: 'company-idea',
+		name: 'IndexCompanyIdea',
     methods: {
       knowMore() {
         this.$router.push({name: 'service'})

@@ -10,7 +10,7 @@
 
 <script>
 	export default {
-		name: 'carousel',
+		name: 'IndexCarousel',
 		props: {
 			images: {
 				type: Array,

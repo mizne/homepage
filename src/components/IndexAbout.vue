@@ -20,7 +20,7 @@
 
 <script>
 	export default {
-		name: 'about',
+		name: 'IndexAbout',
     methods: {
       toMore() {
         this.$router.push({name: 'about'})

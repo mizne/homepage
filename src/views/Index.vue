@@ -23,7 +23,7 @@ import Advantage from '@/components/IndexAdvantage'
 import '@/util/wheel-event-polyfill'
 
 export default {
-  name: 'hello',
+  name: 'Index',
   components: {
     'carousel': Carousel,
     'company-idea': CompanyIdea,

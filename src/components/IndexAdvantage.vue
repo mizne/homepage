@@ -23,7 +23,7 @@
 </template>
 <script>
 export default {
-  name: 'service',
+  name: 'IndexAdvantage',
   data() {
     return {
       advantages: [{

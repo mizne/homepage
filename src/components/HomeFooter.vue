@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'HomeFooter',
   data () {
     return {
       msg: 'home-footer'

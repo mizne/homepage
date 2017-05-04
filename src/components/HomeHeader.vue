@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'HomeHeader',
   data () {
     return {
       msg: 'home-header',
