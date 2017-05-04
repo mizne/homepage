@@ -29,8 +29,8 @@
     </div>
     <div class="amap-wrapper">
       <el-amap :vid="'amap-vue'" :center="center" :zoom="zoom" :map-manager="amapManager" :plugin="plugin" :events="events">
-        <el-amap-marker v-for="marker in markers" :position="marker"></el-amap-marker>
-        <el-amap-info-window v-for="window in windows" :position="window.position" :content="window.content" :open="window.open" :events="window.events">
+        <el-amap-marker v-for="marker in markers" :key="marker.$index" :position="marker"></el-amap-marker>
+        <el-amap-info-window v-for="window in windows" :key="window.$index" :position="window.position" :content="window.content" :open="window.open" :events="window.events">
         	
         </el-amap-info-window>
       </el-amap>
