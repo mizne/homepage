@@ -14,7 +14,7 @@
 
       <div class="cloud-data el-row">
         <div class="logo el-col-10">
-          <img src="http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAg0JjLwAUopuyGogQwlwM4_wE.jpg" alt="">
+          <img src="../assets/images/AD0I-KXKBRACGAAg0JjLwAUopuyGogQwlwM4_wE.jpg" alt="">
         </div>
 
         <div class="text-area el-col-offset-4 el-col-10">
@@ -107,7 +107,7 @@
     .big-data {
       .logo {
         height: 233px;
-        background: url(http://11703036.s61i.faiusr.com/4/AD0I-KXKBRAEGAAguZXLwAUopYicugQwqgE4uAE.png) no-repeat;
+        background: url(../assets/images/AD0I-KXKBRAEGAAguZXLwAUopYicugQwqgE4uAE.png) no-repeat;
       }
 
       .text-area {

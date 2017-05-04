@@ -31,7 +31,7 @@ export default {
 .company-idea {
   height: 210px;
   color: white;
-  background-color: #f13a3a;
+  background-color: #3ab6f1;
   .text-area {
     margin-top: 3rem;
     .header {
@@ -49,7 +49,7 @@ export default {
     margin-top: 4.5rem;
     .more-btn {
       width: 200px;
-      color: #f13a3a;
+      color: #3ab6f1;
       margin: 0 3rem;
       padding: 1.5rem 0;
       background-color: white;

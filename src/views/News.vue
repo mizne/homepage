@@ -78,7 +78,7 @@ export default {
     margin: 0px auto;
     position: relative;
     z-index: 1;
-    background-image: url(http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAgkvvLwAUo9OfDrQQwgA84wgM.jpg)
+    background-image: url(../assets/images/AD0I-KXKBRACGAAgkvvLwAUo9OfDrQQwgA84wgM.jpg)
   }
   .dynamic {
   	margin: 40px auto;

@@ -4,7 +4,7 @@
     <div class="info el-row">
       <div class="email el-col-6">
         <div class="logo">
-          <img src="http://11703036.s61i.faiusr.com/4/AD0I-KXKBRAEGAAgg47MwAUo8tuz5AYwajho.png" alt="">
+          <img src="../assets/images/AD0I-KXKBRAEGAAgg47MwAUo8tuz5AYwajho.png" alt="">
         </div>
         <div class="text">
           tenswin@126.com
@@ -12,7 +12,7 @@
       </div>
       <div class="address el-col-offset-3 el-col-6">
         <div class="logo">
-          <img src="http://11703036.s61i.faiusr.com/4/AD0I-KXKBRAEGAAg-43MwAUokLSU4gcwajho.png" alt="">
+          <img src="../assets/images/AD0I-KXKBRAEGAAg-43MwAUokLSU4gcwajho.png" alt="">
         </div>
         <div class="text">
           江苏省南京市建邺区金润国际广场1617
@@ -20,7 +20,7 @@
       </div>
       <div class="tel el-col-offset-3 el-col-6">
         <div class="logo">
-          <img src="http://11703036.s61i.faiusr.com/4/AD0I-KXKBRAEGAAg-I3MwAUorf_LvAIwajho.png" alt="">
+          <img src="../assets/images/AD0I-KXKBRAEGAAg-I3MwAUorf_LvAIwajho.png" alt="">
         </div>
         <div class="text">
           025-8666-2644
@@ -106,7 +106,7 @@ export default {
     margin: 0px auto;
     position: relative;
     z-index: 1;
-    background-image: url(http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAgiI7MwAUoioWd6AYwgA84wgM.jpg);
+    background-image: url(../assets/images/AD0I-KXKBRACGAAgiI7MwAUoioWd6AYwgA84wgM.jpg);
   }
   .info {
     width: 80%;

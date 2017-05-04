@@ -33,7 +33,7 @@
   .about {
     height: 605px;
     margin-top: 2rem;
-    background: url(http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAgo5XLwAUozsfIuQcw-w443QQ.jpg) no-repeat top;
+    background: url(../assets/images/AD0I-KXKBRACGAAgo5XLwAUozsfIuQcw-w443QQ.jpg) no-repeat top;
 
     .content {
       padding-top: 150px;

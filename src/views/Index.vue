@@ -39,9 +39,13 @@ export default {
       aboutAnimated: false,
       advantageAnimated: false,
       images: [{
-        url: 'http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAgi43LwAUo_PGZpgcwgA84igU.jpg'
+        header: '免费开源的移动商城网店系统',
+        content: '免费开源，开源基于MVC框架开发，组件式web系统，灵活的模板标签、快速安装数据同步，欢迎您的体验！',
+        url: require('../assets/images/banner-ld.jpg')
       }, {
-        url: 'http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAgybzbwAUo0da-KDCADziKBQ.jpg'
+        header: '让我们一起改变移动电商',
+        content: '国内免费开源的移动商城系统',
+        url: require('../assets/images/1-bg.jpg')
       }]
     }
   },

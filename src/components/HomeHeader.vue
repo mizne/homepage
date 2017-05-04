@@ -54,13 +54,14 @@ export default {
 
   .tabs {
     margin: 2.83rem 0;
+    font-size: 1.2rem;
 
     .item {
       padding: 0.5rem 0.5rem;
       border-radius: 20px;
 
       &:hover, &.selected {
-        background-color: red;
+        background-color: #7aca8f;
       }
     }
   }
