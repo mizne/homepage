@@ -3,17 +3,28 @@
     
     <carousel :images="images"></carousel>
     
-    <company-idea :class="{'animated fadeInUp': ideaAnimated}"></company-idea>
+    <transition enter-active-class="animated fadeInUp">
+      <company-idea v-show="ideaAnimated"></company-idea>
+    </transition>
 
-    <service :class="{'animated fadeInUp': serviceAnimated}"></service>
+    <transition enter-active-class="animated fadeInUp">
+      <service v-show="serviceAnimated"></service>
+    </transition>
 
-    <about :class="{'animated fadeInUp': aboutAnimated}"></about>
+    <transition enter-active-class="animated fadeInUp">
+      <about v-show="aboutAnimated"></about>
+    </transition>
 
-    <advantage :class="{'animated fadeInUp': advantageAnimated}"></advantage> 
+    <transition enter-active-class="animated fadeInUp">
+      <advantage v-show="advantageAnimated"></advantage>
+    </transition>
+    
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+
 import Carousel from '@/components/IndexCarousel'
 import CompanyIdea from '@/components/IndexCompanyIdea'
 import Service from '@/components/IndexService'
@@ -34,7 +45,7 @@ export default {
   data () {
     return {
       msg: 'Index.vue',
-      ideaAnimated: true,
+      ideaAnimated: false,
       serviceAnimated: false,
       aboutAnimated: false,
       advantageAnimated: false,
@@ -69,7 +80,9 @@ export default {
   created() {
     this._wheelListener = this.wheelListener.bind(this)
     addWheelListener(window, this._wheelListener)
-    
+    Vue.nextTick(() => {
+      this.ideaAnimated = true
+    })
   },
   beforeDestroyed() {
     removeWheelListener(window, this._wheelListener)

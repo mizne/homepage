@@ -33,6 +33,7 @@ export default {
 
 <style scoped lang="scss">
 .home-footer {
+  margin-top: 100px;
   height: 400px;
   color: #bbb;
   background-color: #1f2025;
