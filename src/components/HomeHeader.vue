@@ -1,9 +1,9 @@
 <template>
   <div class="home-header el-row">
-    <div class="logo el-col-12">
+    <div class="logo el-col-10">
       <h2 style="margin-top: 0;">腾宣威</h2>
     </div>
-    <div class="tabs el-col-12 el-row">
+    <div class="tabs el-col-14 el-row">
       <div class="item index el-col-3" :class="{'selected': selectedTab === ''}">
         <router-link to="/">首页</router-link>
       </div>
@@ -55,7 +55,7 @@ export default {
   .tabs {
     margin: 2.83rem 0;
     font-size: 1.2rem;
-
+    
     .item {
       padding: 0.5rem 0.5rem;
       border-radius: 20px;
@@ -68,6 +68,7 @@ export default {
 }
 
 a {
+  color: #5a4444 !important;
   text-decoration: none;
 }
 </style>
