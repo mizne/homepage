@@ -11,16 +11,48 @@
         </div>
       </div>
       <div class="item-row el-row" v-for="newList in newses">
-        <div class="item el-col-8" v-for="news in newList">
-          <div class="image">
-            <img :src="news.src" alt="">
-          </div>
-          <div class="header">
-            {{news.header}}
-          </div>
-          <div class="content">
-            {{news.content}}
-          </div>
+        <div class="item el-col-8" v-for="(news, index) in newList">
+          <transition v-if="index === 0" enter-active-class="animated fadeInLeft">
+            <div v-show="showItems">
+              <div class="image">
+                <img :src="news.src" alt="">
+              </div>
+              <div class="header">
+                {{news.header}}
+              </div>
+              <div class="content">
+                {{news.content}}
+              </div>
+            </div>
+          </transition>
+
+          <transition v-if="index === 1" enter-active-class="animated tada">
+            <div v-show="showItems">
+              <div class="image">
+                <img :src="news.src" alt="">
+              </div>
+              <div class="header">
+                {{news.header}}
+              </div>
+              <div class="content">
+                {{news.content}}
+              </div>
+            </div>
+          </transition>
+
+          <transition v-if="index === 2" enter-active-class="animated fadeInRight">
+            <div v-show="showItems">
+              <div class="image">
+                <img :src="news.src" alt="">
+              </div>
+              <div class="header">
+                {{news.header}}
+              </div>
+              <div class="content">
+                {{news.content}}
+              </div>
+            </div>
+          </transition>
         </div>
       </div>
     </div>
@@ -32,6 +64,7 @@ export default {
   data() {
     return {
       msg: 'News.vue',
+      showItems: false,
       newses: [
         [{
           src: 'http://11703036.s61i.faiusr.com/2/AD0I-KXKBRACGAAggPvLwAUo2-qRRjC3Aji5AQ.jpg',
@@ -61,6 +94,21 @@ export default {
         }]
       ]
     }
+  },
+  methods: {
+    wheelListener() {
+      const yOffset = window.pageYOffset
+      if (yOffset > 150) {
+        this.showItems = true
+      }
+    }
+  },
+  created() {
+    this._wheelListener = this.wheelListener.bind(this)
+    addWheelListener(window, this._wheelListener)
+  },
+  beforeDestroyed() {
+    removeWheelListener(window, this._wheelListener)
   }
 }
 </script>
@@ -81,7 +129,7 @@ export default {
     background-image: url(../assets/images/AD0I-KXKBRACGAAgkvvLwAUo9OfDrQQwgA84wgM.jpg)
   }
   .dynamic {
-  	margin: 40px auto;
+    margin: 40px auto;
     .abstract {
       height: 330px;
       padding-top: 100px;
@@ -114,7 +162,7 @@ export default {
         }
         &:hover {
           border: 1px solid #e9e9e9;
-          box-shadow: 0 2px 6px #ccc;
+          box-shadow: 0 2px 16px #ccc;
         }
       }
     }
