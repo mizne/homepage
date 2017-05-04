@@ -71,7 +71,7 @@ export default {
         this.aboutAnimated = true
       }
 
-      if (yOffset > 1800) {
+      if (yOffset > 1700) {
         this.advantageAnimated = true
       }
 
