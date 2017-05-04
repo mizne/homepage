@@ -1,15 +1,8 @@
 <template>
   <div class="home-header el-row">
     <div class="logo el-col-10">
-      <h2 style="margin-top: 0;" @click="showDiv">腾宣威</h2>
+      <h2 style="margin-top: 0;">腾宣威</h2>
     </div>
-  
-    <transition enter-active-class="animated tada" leave-active-class="animated bounceOutLeft">
-      <div v-if="show" style="position: absolute; left: 600px; top: 10px; width: 100px; height: 100px; background-color: #f00;">
-        
-      </div>
-    </transition>
-
     <div class="tabs el-col-14 el-row">
       <div class="item index el-col-3" :class="{'selected': selectedTab === ''}">
         <router-link to="/">首页</router-link>
@@ -36,18 +29,12 @@ export default {
   data () {
     return {
       msg: 'home-header',
-      selectedTab: '',
-      show: false
+      selectedTab: ''
     }
   },
   watch: {
     '$route' (to, from) {
       this.selectedTab = to.path.slice(1)
-    }
-  },
-  methods: {
-    showDiv() {
-      this.show = !this.show
     }
   },
   created() {
