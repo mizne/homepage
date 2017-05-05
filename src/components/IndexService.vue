@@ -8,47 +8,55 @@
           
         </div>
         <div class="content">
-          我们已定制多套解决方案，助您轻松跨入"互联网+"时代，存储、计算、监控、安全你所需要的一切云产品，我们均能以业界领先的水平为您提供。
+          打造优质的用户体验，搭建生态化电商系统。
         </div>
       </div>
 
-      <div class="cloud-data el-row">
+      <div class="micro-mall el-row">
         <div class="logo el-col-10">
-          <img src="../assets/images/AD0I-KXKBRACGAAg0JjLwAUopuyGogQwlwM4_wE.jpg" alt="">
+          <img src="../assets/images/index-1.jpg" alt="" style="height: 360px;">
         </div>
-
         <div class="text-area el-col-offset-4 el-col-10">
           <div class="header">
-            云数据中心操作系统
+            微商城
           </div>
-
           <div class="flag">
-            
           </div>
-
           <div class="content">
-            秉承开放化、模块化、标准化的基于虚拟化技术，实现了数据中心资源融合资源管理及服务交付。
+            一款移动商城系统,可在手机上面卖商品的电子商务软件系统。
           </div>
         </div>
       </div>
 
-      <div class="big-data el-row">
+      <div class="micro-marketing el-row">
         <div class="text-area el-col-10">
           <div class="header">
-            复合大数据
+            微营销
           </div>
-
           <div class="flag">
-            
           </div>
-
           <div class="content">
-            海量、高增长率和多样化的信息资产，提供数据处理，分析，增值能力。通过自采集和与个大应用市场及数据机构采购合作，数据更多维，更具深度。
+            一款集合众筹、拼团、分销功能的微信商城系统，帮助企业打造一站式微信营销推广服务。
           </div>
         </div>
-
         <div class="logo el-col-offset-4 el-col-10">
-          
+          <img src="../assets/images/787_P_1492484874672.jpg" alt="" style="height: 360px;">
+        </div>
+      </div>
+
+      <div class="micro-app el-row">
+        <div class="text-area el-col-10">
+          <div class="header">
+            小程序
+          </div>
+          <div class="flag">
+          </div>
+          <div class="content">
+            小程序真正做到了小巧，不用安装，不用卸载的先进用户体验。
+          </div>
+        </div>
+        <div class="logo el-col-offset-4 el-col-10">
+          <img src="../assets/images/777_P_1483999965218.jpg" alt="" style="height: 360px;">
         </div>
       </div>
   </div>
@@ -62,7 +70,7 @@
 
 <style scoped lang="scss">
   .service {
-    height: 1130px;
+    height: 1670px;
     margin: 0 5rem;
     border-bottom: 1px solid #bfb5b5;
 
@@ -84,7 +92,7 @@
       }
     }
 
-    .cloud-data {
+    .micro-mall {
       height: 400px;
       padding-top: 40px;
 
@@ -104,11 +112,9 @@
       }
     }
 
-    .big-data {
-      .logo {
-        height: 233px;
-        background: url(../assets/images/AD0I-KXKBRAEGAAguZXLwAUopYicugQwqgE4uAE.png) no-repeat;
-      }
+    .micro-marketing, .micro-app {
+      height: 400px;
+      padding-top: 40px;
 
       .text-area {
         .header {

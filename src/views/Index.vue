@@ -67,11 +67,11 @@ export default {
         this.serviceAnimated = true
       }
 
-      if (yOffset > 1000) {
+      if (yOffset > 1540) {
         this.aboutAnimated = true
       }
 
-      if (yOffset > 1700) {
+      if (yOffset > 2240) {
         this.advantageAnimated = true
       }
 
