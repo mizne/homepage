@@ -59,6 +59,7 @@ export default {
     .item {
       padding: 0.5rem 0.5rem;
       border-radius: 20px;
+      transition: background .5s ease;
 
       &:hover, &.selected {
         background-color: #7aca8f;
