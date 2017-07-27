@@ -1,24 +1,27 @@
 <template>
   <div class="home-header el-row">
-    <div class="logo el-col-10">
+    <div class="logo el-col-8">
       <h2 style="margin-top: 0;">腾宣威</h2>
     </div>
-    <div class="tabs el-col-14 el-row">
-      <div class="item index el-col-3" :class="{'selected': selectedTab === ''}">
-        <router-link to="/">首页</router-link>
-      </div>
-      <div class="item service el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'service'}">
-        <router-link to="/service">我们的服务</router-link>
-      </div>
-      <div class="item about el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'about'}">
-        <router-link to="/about">关于我们</router-link>
-      </div>
-      <div class="item news el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'news'}">
-        <router-link to="/news">新闻动态</router-link>
-      </div>
-      <div class="item contract el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'contract'}">
-        <router-link to="/contract">联系我们</router-link>
-      </div>
+    <div class="tabs el-col-16 el-row">
+      <router-link to="/" class="item index el-col-3" :class="{'selected': selectedTab === ''}">
+        首页
+      </router-link>
+      <router-link to="/service" class="item service el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'service'}">
+        我们的服务
+      </router-link>
+      <router-link to="/about" class="item about el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'about'}">
+        关于我们
+      </router-link>
+      <router-link to="/news" class="item news el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'news'}">
+        新闻动态
+      </router-link>
+      <router-link to="/contract" class="item contract el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'contract'}">
+        联系我们
+      </router-link>
+      <router-link to="/hire" class="item hire el-col-3 el-col-offset-1" :class="{'selected': selectedTab === 'hire'}">
+        招贤榜
+      </router-link>
     </div>
   </div>
 </template>

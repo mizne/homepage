@@ -6,6 +6,7 @@ import Service from '@/views/Service'
 import About from '@/views/About'
 import Contract from '@/views/Contract'
 import News from '@/views/News'
+import Hire from '@/views/Hire'
 
 Vue.use(Router)
 
@@ -31,5 +32,9 @@ export default new Router({
     path: '/contract',
     name: 'contract',
     component: Contract
+  }, {
+    path: '/hire',
+    name: 'hire',
+    component: Hire
   }]
 })

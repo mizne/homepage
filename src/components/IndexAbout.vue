@@ -15,6 +15,7 @@
           </div>
         </div>
       </div>
+      
   </div>
 </template>
 
@@ -31,7 +32,7 @@
 
 <style scoped lang="scss">
   .about {
-    height: 605px;
+    height: 605;
     margin-top: 2rem;
     background: url(../assets/images/AD0I-KXKBRACGAAgo5XLwAUozsfIuQcw-w443QQ.jpg) no-repeat top;
 
