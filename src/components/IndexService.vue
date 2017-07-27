@@ -36,11 +36,11 @@
           <div class="flag">
           </div>
           <div class="content">
-            一款集合众筹、拼团、分销功能的微信商城系统，帮助企业打造一站式微信营销推广服务。
+            帮助企业打造一站式微信营销推广服务。
           </div>
         </div>
         <div class="logo el-col-offset-4 el-col-10">
-          <img src="../assets/images/787_P_1492484874672.jpg" alt="" style="height: 360px;">
+          <img src="../assets/功能列表.png" alt="" style="height: 360px;">
         </div>
       </div>
 
