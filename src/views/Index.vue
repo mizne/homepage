@@ -50,12 +50,12 @@ export default {
       aboutAnimated: false,
       advantageAnimated: false,
       images: [{
-        header: '免费开源的移动商城网店系统',
-        content: '免费开源，开源基于MVC框架开发，组件式web系统，灵活的模板标签、快速安装数据同步，欢迎您的体验！',
+        header: '全球首屈一指的CRM系统',
+        content: '以SaaS服务模式提供，完全免费的定制系统',
         url: require('../assets/images/banner-ld.jpg')
       }, {
-        header: '让我们一起改变移动电商',
-        content: '国内免费开源的移动商城系统',
+        header: '全球首屈一指的CRM系统',
+        content: '让我们一起改变移动电商',
         url: require('../assets/images/1-bg.jpg')
       }]
     }

@@ -1,7 +1,7 @@
 <template>
   <div class="home-header el-row">
     <div class="logo el-col-8">
-      <h2 style="margin-top: 0;">腾宣威</h2>
+      <h1 style="margin-top: 0;">腾宣威</h1>
     </div>
     <div class="tabs el-col-16 el-row">
       <router-link to="/" class="item index el-col-3" :class="{'selected': selectedTab === ''}">
