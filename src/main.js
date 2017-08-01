@@ -5,13 +5,14 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+import FastClick from 'fastclick'
 // 引入vue-amap
 import AMap from 'vue-amap';
 
 import 'animate.css'
 
 Vue.config.productionTip = false
-
+FastClick.attach(document.body)
 Vue.use(ElementUI)
 Vue.use(AMap);
 

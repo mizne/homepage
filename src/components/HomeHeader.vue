@@ -25,41 +25,28 @@
     </div>
   
     <div class="dropdown">
-      <el-dropdown>
+      <el-dropdown @command="handleCommand" trigger="click">
         <el-button type="primary">
           <i class="el-icon-menu"></i>
         </el-button>
         <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item>
-            <router-link to="/" class="item index" :class="{'selected': selectedTab === ''}">
+          <el-dropdown-item command="index">
               首页
-            </router-link>
           </el-dropdown-item>
-          <el-dropdown-item>
-            <router-link to="/service" class="item service" :class="{'selected': selectedTab === 'service'}">
+          <el-dropdown-item command="service">
               我们的服务
-            </router-link>
           </el-dropdown-item>
-          <el-dropdown-item>
-            <router-link to="/about" class="item about" :class="{'selected': selectedTab === 'about'}">
+          <el-dropdown-item command="about">
               关于我们
-            </router-link>
           </el-dropdown-item>
-          <el-dropdown-item>
-            <router-link to="/news" class="item news" :class="{'selected': selectedTab === 'news'}">
+          <el-dropdown-item command="news">
               新闻动态
-            </router-link>
           </el-dropdown-item>
-          <el-dropdown-item>
-            <router-link to="/contract" class="item contract" :class="{'selected': selectedTab === 'contract'}">
+          <el-dropdown-item command="contract">
               联系我们
-            </router-link>
           </el-dropdown-item>
-  
-          <el-dropdown-item>
-            <router-link to="/hire" class="item hire" :class="{'selected': selectedTab === 'hire'}">
+          <el-dropdown-item command="hire">
               招贤榜
-            </router-link>
           </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
@@ -83,6 +70,12 @@ export default {
   },
   created() {
     this.selectedTab = this.$route.path.slice(1)
+  },
+  methods: {
+    handleCommand(command) {
+      console.log(command)
+      this.$router.push({ name: command })
+    }
   }
 }
 </script>
