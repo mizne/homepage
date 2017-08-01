@@ -2,7 +2,8 @@
   <div class="advantage">
     <div class="abstract">
       <div class="header">
-        选择我们的<span class="big-font">6</span>大优势
+        选择我们的
+        <span class="big-font">6</span>大优势
       </div>
       <div class="flag">
       </div>
@@ -10,12 +11,12 @@
         我们已定制多套解决方案，助您轻松跨入"互联网+"时代，存储、计算、监控、安全你所需要的一切云产品，我们均能以业界领先的水平为您提供。
       </div>
     </div>
-    <div class="advantage-area el-row" v-for="advantage in advantages">
-      <div class="content-area el-col-10">
+    <div class="advantage-area" v-for="advantage in advantages" :key="advantage.$index">
+      <div class="content-area">
         <div class="header">{{advantage.header}}</div>
         <div class="text">{{advantage.content}}</div>
       </div>
-      <div class="logo-area el-col-offset-4 el-col-10">
+      <div class="logo-area">
         <img :src="advantage.src">
       </div>
     </div>
@@ -56,43 +57,93 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-.advantage {
-  height: 1890px;
-  margin: 0 5rem;
-  .abstract {
-    height: 330px;
-    padding-top: 100px;
-    .header {
-      font-size: 2rem;
-      .big-font {
-        margin: 0 10px;
-        font-style: italic;
-        color: red;
-        font-size: 4rem;
+@media (min-width: 600px) {
+  .advantage {
+    margin: 0 5rem;
+    .abstract {
+      height: 330px;
+      padding-top: 100px;
+      .header {
+        font-size: 2rem;
+        .big-font {
+          margin: 0 10px;
+          font-style: italic;
+          color: red;
+          font-size: 4rem;
+        }
+      }
+      .flag {
+        width: 100px;
+        margin: 40px auto;
+        border-top: 2px solid red;
+      }
+      .content {
+        color: #666;
+        line-height: 2.5rem;
       }
     }
-    .flag {
-      width: 100px;
-      margin: 40px auto;
-      border-top: 2px solid red;
-    }
-    .content {
-      color: #666;
-      line-height: 2.5rem;
+    .advantage-area {
+      height: 250px;
+      width: 500px;
+      margin: 0 auto;
+      display: flex;
+      .content-area {
+        flex: 1;
+        color: #666;
+        .header {
+          font-size: 1.5rem;
+        }
+        .text {
+          margin-top: 20px;
+          line-height: 2rem;
+        }
+      }
+
+      .logo-area {
+        flex: 1;
+        margin-left: 4rem;
+      }
     }
   }
-  .advantage-area {
-    height: 250px;
-    width: 500px;
-    margin: 0 auto;
-    .content-area {
-      color: #666;
+}
+
+@media (max-width: 600px) {
+  .advantage {
+    margin: 0 5rem;
+    .abstract {
+      height: 500px;
+      padding-top: 100px;
       .header {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        .big-font {
+          margin: 0 10px;
+          font-style: italic;
+          color: red;
+          font-size: 4rem;
+        }
       }
-      .text {
-        margin-top: 20px;
-        line-height: 2rem;
+      .flag {
+        width: 100px;
+        margin: 40px auto;
+        border-top: 2px solid red;
+      }
+      .content {
+        color: #666;
+        line-height: 2.5rem;
+      }
+    }
+    .advantage-area {
+      height: 350px;
+      margin: 0 auto;
+      .content-area {
+        color: #666;
+        .header {
+          font-size: 1.5rem;
+        }
+        .text {
+          margin-top: 20px;
+          line-height: 2rem;
+        }
       }
     }
   }
