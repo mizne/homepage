@@ -141,7 +141,7 @@ export default {
   .contract {
     .carousel-area {
       width: 100%;
-      height: 450px;
+      height: 200px;
       cursor: default;
       background-position: 50% 50%;
       background-repeat: no-repeat;

@@ -10,8 +10,8 @@
           多年来我们始终专注于高水准的品牌整合服务，立足南京，放眼全中国。我们打破传统互联网思维 ，将创新运用其中，回归行业商业本质。技术和商业模式的创新，使我们成为移动互联乃至互联网行业迅速崛起的龙头企业 。
         </div>
       </div>
-      <div class="item-row el-row" v-for="newList in newses">
-        <div class="item el-col-8" v-for="(news, index) in newList">
+      <div class="item-row" v-for="newList in newses" :key="newList.$index">
+        <div class="item" v-for="(news, index) in newList" :key="news.$index">
           <transition v-if="index === 0" enter-active-class="animated fadeInLeft">
             <div v-show="showItems">
               <div class="image">
@@ -25,7 +25,7 @@
               </div>
             </div>
           </transition>
-
+  
           <transition v-if="index === 1" enter-active-class="animated tada">
             <div v-show="showItems">
               <div class="image">
@@ -39,7 +39,7 @@
               </div>
             </div>
           </transition>
-
+  
           <transition v-if="index === 2" enter-active-class="animated fadeInRight">
             <div v-show="showItems">
               <div class="image">
@@ -114,20 +114,40 @@ export default {
 </script>
 <style scoped lang="scss">
 .news {
-  .carousel-area {
-    width: 100%;
-    height: 450px;
-    cursor: default;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    display: block;
-    outline: none;
-    margin: 0px auto;
-    position: relative;
-    z-index: 1;
-    background-image: url(../assets/images/AD0I-KXKBRACGAAgkvvLwAUo9OfDrQQwgA84wgM.jpg)
+  @media (min-width: 600px) {
+    .carousel-area {
+      width: 100%;
+      height: 450px;
+      cursor: default;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      display: block;
+      outline: none;
+      margin: 0px auto;
+      position: relative;
+      z-index: 1;
+      background-image: url(../assets/images/AD0I-KXKBRACGAAgkvvLwAUo9OfDrQQwgA84wgM.jpg)
+    }
   }
+
+  @media (max-width: 600px) {
+    .carousel-area {
+      width: 100%;
+      height: 200px;
+      cursor: default;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      display: block;
+      outline: none;
+      margin: 0px auto;
+      position: relative;
+      z-index: 1;
+      background-image: url(../assets/images/AD0I-KXKBRACGAAgkvvLwAUo9OfDrQQwgA84wgM.jpg)
+    }
+  }
+
   .dynamic {
     margin: 40px auto;
     .abstract {
@@ -146,23 +166,55 @@ export default {
         line-height: 2.5rem;
       }
     }
-    .item-row {
-      width: 80%;
-      margin: 20px auto;
-      .item {
-        color: #666;
-        .header {
+
+    @media (min-width: 600px) {
+      .item-row {
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        .item {
+          color: #666;
+          flex: 1;
+          .header {
+            margin-top: 10px;
+            font-size: 1.2rem;
+          }
+          .content {
+            margin: 10px auto;
+            width: 80%;
+            line-height: 1.5rem;
+          }
+          &:hover {
+            border: 1px solid #e9e9e9;
+            box-shadow: 0 2px 16px #ccc;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      .item-row {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        .item {
+          color: #666;
+          flex: 1;
           margin-top: 10px;
-          font-size: 1.2rem;
-        }
-        .content {
-          margin: 10px auto;
-          width: 80%;
-          line-height: 1.5rem;
-        }
-        &:hover {
-          border: 1px solid #e9e9e9;
-          box-shadow: 0 2px 16px #ccc;
+          .header {
+            margin-top: 10px;
+            font-size: 1.2rem;
+          }
+          .content {
+            margin: 10px auto;
+            width: 80%;
+            line-height: 1.5rem;
+          }
+          &:hover {
+            border: 1px solid #e9e9e9;
+            box-shadow: 0 2px 16px #ccc;
+          }
         }
       }
     }

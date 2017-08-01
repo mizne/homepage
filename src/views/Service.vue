@@ -22,7 +22,8 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-.service {
+@media (min-width: 600px) {
+  .service {
   .carousel-area {
     width: 100%;
     height: 450px;
@@ -38,5 +39,26 @@ export default {
     background-image: url(../assets/images/AD0I-KXKBRACGAAgsOvLwAUo0JOByQcwgA84wgM.jpg)
 
   }
+}
+}
+
+@media (max-width: 600px) {
+  .service {
+  .carousel-area {
+    width: 100%;
+    height: 200px;
+    cursor: default;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    outline: none;
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+    background-image: url(../assets/images/AD0I-KXKBRACGAAgsOvLwAUo0JOByQcwgA84wgM.jpg)
+
+  }
+}
 }
 </style>
