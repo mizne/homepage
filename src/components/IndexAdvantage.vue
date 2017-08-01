@@ -8,7 +8,7 @@
       <div class="flag">
       </div>
       <div class="content">
-        我们已定制多套解决方案，助您轻松跨入"互联网+"时代，存储、计算、监控、安全你所需要的一切云产品，我们均能以业界领先的水平为您提供。
+        我们将互联网技术与传统餐饮行业优势充分融合，打造出“门店+互联网”O2O的商业模式，为客户实现资源共享，实现新商业模式与经营管理行为。
       </div>
     </div>
     <div class="advantage-area" v-for="advantage in advantages" :key="advantage.$index">
@@ -28,28 +28,29 @@ export default {
   data() {
     return {
       advantages: [{
-        header: '组件式WEB系统',
-        content: '程序采用APP方式设计，任何功能均为独立组件，可拆除或组装功能，结构简单并且利于扩展与开发。',
+        header: '技术创新优势',
+        content: `8项软件著作权
+        2项国家级技术专利技术`,
         src: require('../assets/images/cpjs1.png')
       }, {
-        header: '灵活的模板标签',
-        content: '拥有灵活的标签系统，让您能够快速的在编辑器中制作模板，适合前端美工设计。',
+        header: '营销优势',
+        content: '技术支持与营销服务网络',
         src: require('../assets/images/cpjs2.png')
       }, {
-        header: '快速安装，数据同步',
-        content: '安装只需将文件放进指定位置，即可进行一键同步安装，已有数据无缝同步，如用户操作等状态都将无缝同步到手机端中。',
+        header: '先发优势',
+        content: '代售点客户接近100个    SaaS用户发展快速',
         src: require('../assets/images/cpjs3.png')
       }, {
-        header: 'HTML5',
-        content: '万维网的核心语言、标准通用标记语言下的一个应用超文本标记语言(HTML)的第五次重大修改。',
+        header: '产品线优势',
+        content: '满足中国中小企业客户信息化不同阶段的各种需要，具有专业的品牌推广和营销能力。',
         src: require('../assets/images/cpjs5.png')
       }, {
-        header: 'CSS3',
-        content: 'CSS技术的升级版本，CSS3语言开发是朝着模块化发展的。以前的规范实在是太庞大而且比较复杂。',
+        header: '产品推广模式优势',
+        content: '门店+互联网',
         src: require('../assets/images/cpjs6.png')
       }, {
-        header: 'ICONFONT',
-        content: '由阿里巴巴UX部门推出的矢量图标管理网站，也是国内首家推广Webfont影视图标的平台。',
+        header: 'O2O商业模式',
+        content: '专业、优质、诚信的企业形象',
         src: require('../assets/images/cpjs4.png')
       }]
     }
