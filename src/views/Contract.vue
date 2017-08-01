@@ -60,7 +60,7 @@ export default {
           this.zoom = this.amapManager.getMap().getZoom();
         },
         'click': (e) => {
-          alert('map clicked');
+          console.log('map clicked');
         }
       },
       plugin: ['ToolBar', {

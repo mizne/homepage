@@ -73,7 +73,6 @@ export default {
   },
   methods: {
     handleCommand(command) {
-      console.log(command)
       this.$router.push({ name: command })
     }
   }
