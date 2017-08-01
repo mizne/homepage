@@ -157,16 +157,19 @@ export default {
       width: 100%;
       margin: 40px auto;
       display: flex;
+      flex-direction: column;
 
       .email {
         flex: 1;
       }
 
       .address {
+        margin-top: 10px;
         flex: 1;
       }
 
       .tel {
+        margin-top: 10px;
         flex: 1;
       }
       .text {
