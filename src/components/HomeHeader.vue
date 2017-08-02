@@ -51,6 +51,9 @@
           <el-dropdown-item command="hire">
               招贤榜
           </el-dropdown-item>
+          <el-dropdown-item command="manager">
+              免费体验
+          </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </div>
@@ -76,6 +79,10 @@ export default {
   },
   methods: {
     handleCommand(command) {
+      if (command === 'manager') {
+        window.location.href = 'http://manager.xiaovbao.cn/'
+        return 
+      }
       this.$router.push({ name: command })
     },
     routeTo(name) {
