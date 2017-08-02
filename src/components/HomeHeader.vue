@@ -4,24 +4,27 @@
       <h1 style="margin-top: 0;">腾宣威</h1>
     </div>
     <div class="tabs">
-      <router-link to="/" class="item index" :class="{'selected': selectedTab === ''}">
+      <a to="/" @click="routeTo('index')" class="item index" :class="{'selected': selectedTab === ''}">
         首页
-      </router-link>
-      <router-link to="/service" class="item service" :class="{'selected': selectedTab === 'service'}">
+      </a>
+      <a to="/service" @click="routeTo('service')" class="item service" :class="{'selected': selectedTab === 'service'}">
         我们的服务
-      </router-link>
-      <router-link to="/about" class="item about" :class="{'selected': selectedTab === 'about'}">
+      </a>
+      <a to="/about" @click="routeTo('about')" class="item about" :class="{'selected': selectedTab === 'about'}">
         关于我们
-      </router-link>
-      <router-link to="/news" class="item news" :class="{'selected': selectedTab === 'news'}">
+      </a>
+      <a to="/news" @click="routeTo('news')" class="item news" :class="{'selected': selectedTab === 'news'}">
         新闻动态
-      </router-link>
-      <router-link to="/contract" class="item contract" :class="{'selected': selectedTab === 'contract'}">
+      </a>
+      <a to="/contract" @click="routeTo('contract')" class="item contract" :class="{'selected': selectedTab === 'contract'}">
         联系我们
-      </router-link>
-      <router-link to="/hire" class="item hire" :class="{'selected': selectedTab === 'hire'}">
+      </a>
+      <a to="/hire" @click="routeTo('hire')" class="item hire" :class="{'selected': selectedTab === 'hire'}">
         招贤榜
-      </router-link>
+      </a>
+      <a href="http://manager.xiaovbao.cn/" class="item hire" :class="{'selected': selectedTab === 'hire'}">
+        免费体验
+      </a>
     </div>
   
     <div class="dropdown">
@@ -74,6 +77,9 @@ export default {
   methods: {
     handleCommand(command) {
       this.$router.push({ name: command })
+    },
+    routeTo(name) {
+      this.$router.push({ name })
     }
   }
 }
@@ -104,6 +110,7 @@ export default {
         margin-left: 10px;
         padding: 0.5rem 0.5rem;
         border-radius: 20px;
+        cursor: pointer;
         transition: background .5s ease;
 
         &:hover,
