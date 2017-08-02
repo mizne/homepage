@@ -107,7 +107,7 @@ export default {
       display: none;
     }
     .tabs {
-      flex: 2;
+      flex: 4;
       margin: 2.83rem 0;
       font-size: 1.2rem;
       display: flex;
