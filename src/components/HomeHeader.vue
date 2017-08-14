@@ -22,7 +22,7 @@
       <a to="/hire" @click="routeTo('hire')" class="item hire" :class="{'selected': selectedTab === 'hire'}">
         招贤榜
       </a>
-      <a href="http://manager.xiaovbao.cn/" class="item hire" :class="{'selected': selectedTab === 'hire'}">
+      <a href="http://test.xiaovbao.cn/" class="item hire" :class="{'selected': selectedTab === 'hire'}">
         免费体验
       </a>
     </div>
