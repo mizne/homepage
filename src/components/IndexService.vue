@@ -59,8 +59,84 @@
           小程序真正做到了小巧，不用安装，不用卸载的先进用户体验。
         </div>
       </div>
-  
     </div>
+  
+    <div class="micro-app">
+      <div class="logo">
+        <img src="../assets/images/H00258.png" alt="" style="height: 360px;">
+      </div>
+      <div class="text-area">
+        <div class="header">
+          硬件系列-H00258
+        </div>
+        <div class="flag">
+        </div>
+        <div class="content">
+          <span style="display: block">出单自动切纸，方便快捷</span>
+          <span style="display: block">出单蜂鸣提醒，防止漏单</span>
+          <span style="display: block">高速打印，提高效率</span>
+          <span style="display: block">热敏打印原理，无需换墨</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="micro-app">
+      <div class="logo">
+        <img src="../assets/images/H00358.png" alt="" style="height: 360px;">
+      </div>
+      <div class="text-area">
+        <div class="header">
+          硬件系列-H00358
+        </div>
+        <div class="flag">
+        </div>
+        <div class="content">
+          <span style="display: block">智能双屏，灵敏触屏，耐戳耐用</span>
+          <span style="display: block">高端配置，性能卓越</span>
+          <span style="display: block">经久耐用，24h不间断开机</span>
+          <span style="display: block">智能高效，运行稳定</span>
+          <span style="display: block">广告客显，灵活切换</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="micro-app">
+      <div class="logo">
+        <img src="../assets/images/H00458.png" alt="" style="height: 360px;">
+      </div>
+      <div class="text-area">
+        <div class="header">
+          硬件系列-H00458
+        </div>
+        <div class="flag">
+        </div>
+        <div class="content">
+          <span style="display: block">完美设计，时尚享受</span>
+          <span style="display: block">扩充性好，安全性高</span>
+          <span style="display: block">独特散热，性能稳定</span>
+          <span style="display: block">安装方便，维护简单</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="micro-app">
+      <div class="logo">
+        <img src="../assets/images/H00558.png" alt="" style="height: 360px;">
+      </div>
+      <div class="text-area">
+        <div class="header">
+          硬件系列-H00558
+        </div>
+        <div class="flag">
+        </div>
+        <div class="content">
+          <span style="display: block">工业级多媒体综合显示屏</span>
+          <span style="display: block">画中画，支持播放商业广告</span>
+          <span style="display: block">操作简单，性能优，功耗低</span>
+        </div>
+      </div>
+    </div>
+  
   </div>
 </template>
 
@@ -132,7 +208,7 @@ export default {
   @media (max-width: 600px) {
     .micro-mall {
       height: 620px;
-      padding-top: 40px;
+      margin-top: 40px;
       display: flex;
       flex-direction: column;
 
@@ -142,7 +218,7 @@ export default {
       }
 
       .text-area {
-        margin-top: 4rem;
+        // margin-top: 4rem;
         .header {
           font-size: 1.5rem;
         }
@@ -199,8 +275,8 @@ export default {
   @media (max-width: 600px) {
     .micro-marketing,
     .micro-app {
-      height: 620px;
-      padding-top: 40px;
+      min-height: 620px;
+      margin-top: 40px;
       display: flex;
       flex-direction: column;
 
@@ -209,8 +285,12 @@ export default {
         flex: 1;
       }
 
+      .logo img {
+        max-width: 100%;
+      }
+
       .text-area {
-        margin-top: 4rem;
+        // margin-top: 4rem;
         .header {
           font-size: 1.5rem;
         }
