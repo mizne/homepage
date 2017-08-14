@@ -80,7 +80,7 @@ export default {
   methods: {
     handleCommand(command) {
       if (command === 'manager') {
-        window.location.href = 'http://manager.xiaovbao.cn/'
+        window.location.href = 'https://test.xiaovbao.cn/'
         return 
       }
       this.$router.push({ name: command })
