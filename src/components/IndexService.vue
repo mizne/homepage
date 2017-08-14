@@ -14,32 +14,34 @@
   
     <div class="micro-mall">
       <div class="logo">
-        <img src="../assets/images/index-1.jpg" alt="" style="height: 360px;">
+        <img src="../assets/images/SAAS.png" alt="" style="height: 360px;">
       </div>
       <div class="text-area">
         <div class="header">
-          微商城
+          SAAS & CRM
         </div>
         <div class="flag">
         </div>
         <div class="content">
-          一款移动商城系统,可在手机上面卖商品的电子商务软件系统。
+          <span style="display: block">国内第一套酒店SaaS系统，技术比肩salesforce，国内领先</span>
+          <span style="display: block">2016年，通过国际软件成熟度三级阶段性评估（CMMI3）</span>
+          <span style="display: block">2017年，顺利完成ISO9001：2008认证 </span>
         </div>
       </div>
     </div>
   
     <div class="micro-marketing">
       <div class="logo">
-        <img src="../assets/功能列表.png" alt="" style="height: 360px; width: 100%;">
+        <img src="../assets/images/edaishou.jpg" alt="" style="height: 360px; width: 100%;">
       </div>
       <div class="text-area">
         <div class="header">
-          微营销
+          e代售
         </div>
         <div class="flag">
         </div>
         <div class="content">
-          帮助企业打造一站式微信营销推广服务。
+          近千家代售点，涵盖大小商圈、住宅及写字楼，增加销售渠道，提高营收
         </div>
       </div>
   
@@ -47,16 +49,17 @@
   
     <div class="micro-app">
       <div class="logo">
-        <img src="../assets/images/777_P_1483999965218.jpg" alt="" style="height: 360px;">
+        <img src="../assets/images/ediancan.jpg" alt="" style="height: 360px;">
       </div>
       <div class="text-area">
         <div class="header">
-          小程序
+          e点餐
         </div>
         <div class="flag">
         </div>
         <div class="content">
-          小程序真正做到了小巧，不用安装，不用卸载的先进用户体验。
+          <span style="display: block">引人、省人、留人”三位一体的o2o应用工具</span>
+          <span style="display: block">打造 提升效率、降低成本、丰富体验 的互联网应用工具</span>
         </div>
       </div>
     </div>
@@ -207,7 +210,7 @@ export default {
 
   @media (max-width: 600px) {
     .micro-mall {
-      height: 620px;
+      min-height: 620px;
       margin-top: 40px;
       display: flex;
       flex-direction: column;
@@ -215,6 +218,10 @@ export default {
       .logo,
       .text-area {
         flex: 1;
+      }
+
+      .logo img {
+        max-width: 100%;
       }
 
       .text-area {
