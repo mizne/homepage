@@ -54,7 +54,7 @@ export default {
         content: '帮助商家有效实现客户引流、客户精准营销和客户管理',
         url: require('../assets/images/banner-ld.jpg')
       }, {
-        header: '新零售全渠道客户营销CRM解决方案',
+        header: '新零售全渠道客户营销CRM行业标杆',
         content: '让我们一起改变移动电商',
         url: require('../assets/images/1-bg.jpg')
       }]
