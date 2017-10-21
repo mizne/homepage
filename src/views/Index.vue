@@ -1,8 +1,8 @@
 <template>
   <div class="index">
-    
+
     <carousel :images="images"></carousel>
-    
+
     <transition enter-active-class="animated fadeInUp">
       <company-idea v-show="ideaAnimated"></company-idea>
     </transition>
@@ -18,7 +18,7 @@
     <transition enter-active-class="animated fadeInUp">
       <advantage v-show="advantageAnimated"></advantage>
     </transition>
-    
+
   </div>
 </template>
 
@@ -50,11 +50,11 @@ export default {
       aboutAnimated: false,
       advantageAnimated: false,
       images: [{
-        header: '全球首屈一指的CRM系统',
-        content: '以SaaS服务模式提供，完全免费的定制系统',
+        header: '新零售全渠道客户营销CRM解决方案',
+        content: '帮助商家有效实现客户引流、客户精准营销和客户管理',
         url: require('../assets/images/banner-ld.jpg')
       }, {
-        header: '全球首屈一指的CRM系统',
+        header: '新零售全渠道客户营销CRM解决方案',
         content: '让我们一起改变移动电商',
         url: require('../assets/images/1-bg.jpg')
       }]
@@ -92,6 +92,6 @@ export default {
 
 <style scoped lang="scss">
 .index {
-  
+
 }
 </style>

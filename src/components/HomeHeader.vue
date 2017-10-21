@@ -22,11 +22,11 @@
       <a to="/hire" @click="routeTo('hire')" class="item hire" :class="{'selected': selectedTab === 'hire'}">
         招贤榜
       </a>
-      <a href="http://test.xiaovbao.cn/" class="item hire" :class="{'selected': selectedTab === 'hire'}">
+      <a href="http://test.xiaovbao.cn/login" class="item hire" :class="{'selected': selectedTab === 'hire'}">
         免费体验
       </a>
     </div>
-  
+
     <div class="dropdown">
       <el-dropdown @command="handleCommand" trigger="click">
         <el-button type="primary">
@@ -80,8 +80,8 @@ export default {
   methods: {
     handleCommand(command) {
       if (command === 'manager') {
-        window.location.href = 'http://test.xiaovbao.cn/'
-        return 
+        window.location.href = 'http://test.xiaovbao.cn/login'
+        return
       }
       this.$router.push({ name: command })
     },
