@@ -22,11 +22,15 @@
     </div>
 
     <div class="tesegongneng">
-      特色功能
+      <div class="header">
+        特色功能
+      </div>
     </div>
 
     <div class="meiyouxiangbudao">
-      没有我们做不到,只有您想不到
+      <div class="header">
+        没有我们做不到,只有您想不到
+      </div>
     </div>
 
     <more-function></more-function>
@@ -215,7 +219,6 @@ export default {
   .tesegongneng,
   .meiyouxiangbudao {
     margin-top: 50px;
-    font-size: 2rem;
   }
 }
 </style>
