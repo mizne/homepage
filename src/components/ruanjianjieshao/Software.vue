@@ -6,7 +6,7 @@
     <div class="description">
       {{software.description}}
     </div>
-    <div class="image-wrapper" :style="{'width': software.title === '智慧会展' ? '60%' : ''}">
+    <div class="image-wrapper" :style="{'width': software.width}">
       <img :src="software.image" alt="">
     </div>
     <div class="know-more">

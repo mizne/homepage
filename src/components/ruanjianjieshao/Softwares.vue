@@ -22,7 +22,8 @@ export default {
             'i-rdesk智慧接待台，基于会展大数据和共享经济理念，为大中型会展场景中的参展商提供观众接待、' +
             '数据管理等多项智能服务，提供以精准营销服务、促进贸易配对、创造新商机为核心的智慧会展解决方案。',
           image: require('../../assets/images/ruanjianjieshao/zhihuihuizhan.png'),
-          route: 'zhihuihuizhan'
+          route: 'zhihuihuizhan',
+          width: '60%'
         },
         {
           id: 1,
@@ -31,7 +32,8 @@ export default {
             '针对商贸城、购物街、本地商圈、大型MALL普遍入驻多业态商家的现状，【智慧商圈解决方案】既能整合平台上的各商家数据，又能为其中的独立商家/' +
             '商城提供独立系统，以单独管理收银、会员、精准营销等体系。最终在平台导航功能的指引下，实现将顾客有效引流至商家，沉淀高价值大数据。',
           image: require('../../assets/images/ruanjianjieshao/zhihuishangquan.png'),
-          route: 'zhihuishangquan'
+          route: 'zhihuishangquan',
+          width: '100%'
         },
         {
           id: 2,
@@ -40,7 +42,8 @@ export default {
             '针对商贸城、购物街、本地商圈、大型MALL普遍入驻多业态商家的现状，【智慧商圈解决方案】既能整合平台上的各商家数据，又能为其中的独立商家/' +
             '商城提供独立系统，以单独管理收银、会员、精准营销等体系。最终在平台导航功能的指引下，实现将顾客有效引流至商家，沉淀高价值大数据。',
           image: require('../../assets/images/ruanjianjieshao/zhihuishangquan.png'),
-          route: 'shangjiaban'
+          route: 'shangjiaban',
+          width: '100%'
         },
         {
           id: 3,
@@ -48,7 +51,8 @@ export default {
           description:
             '适合单店和多店连锁或者是注重客户互动营销的店铺。实现数据实时同步,客户数据一卡通。注重客户发展，拓客维客功能强大。',
           image: require('../../assets/images/ruanjianjieshao/liansuoban.png'),
-          route: 'liansuoban'
+          route: 'liansuoban',
+          width: '100%'
         },
         {
           id: 4,
@@ -56,30 +60,34 @@ export default {
           description:
             '适合于指定行业或者一定区域内运行联盟一卡通，亦或商家联盟，会员统一办卡、消费、积分。盈利模式多样化，可个性化定制。',
           image: require('../../assets/images/ruanjianjieshao/shangjialianmeng.png'),
-          route: 'shangjialianmeng'
+          route: 'shangjialianmeng',
+          width: '100%'
         },
         {
           id: 5,
           title: '教育培训',
           description: '适合于教育培训行业的简单的会员软件，实现会员办卡消费、打折、积分等。',
           image: require('../../assets/images/ruanjianjieshao/jiaoyupeixun.png'),
-          route: 'jiaoyupeixun'
+          route: 'jiaoyupeixun',
+          width: '100%'
         },
         {
           id: 6,
           title: '酒店商城',
           description:
             '适合于酒店行业的简单的会员软件，实现会员办卡消费、打折、积分等。盈利模式多样化，可个性化定制。',
-          image: require('../../assets/images/ruanjianjieshao/shangjialianmeng.png'),
-          route: 'jiudianshangcheng'
+          image: require('../../assets/images/ruanjianjieshao/jiudian.png'),
+          route: 'jiudianshangcheng',
+          width: '60%'
         },
         {
           id: 7,
           title: '超市商城',
           description:
             '适合于超市行业的简单的会员软件，实现会员办卡消费、打折、积分等。盈利模式多样化，可个性化定制。',
-          image: require('../../assets/images/ruanjianjieshao/shangjialianmeng.png'),
-          route: 'chaoshishangcheng'
+          image: require('../../assets/images/ruanjianjieshao/chaoshi.png'),
+          route: 'chaoshishangcheng',
+          width: '100%'
         }
       ]
     }
