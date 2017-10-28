@@ -33,26 +33,28 @@ export default {
 @import '../../assets/scss/mixins';
 
 @media (max-width: 600px) {
-
 }
 
 @media (min-width: 600px) {
-
 }
 .ruanjianjieshao-left-function {
   margin-top: 30px;
-  background-color: #0684db;
+  background-color: #fefefe;
   height: 200px;
   padding: 0 30px;
   display: flex;
   align-items: center;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
 
   @include cardHover;
+  padding: 20px;
   &:hover .description {
     color: white;
   }
-  padding: 20px;
+
+  &:hover {
+    background-color: map-get($colors, primary);
+  }
 
   .icon-wrapper {
     width: 100px;
@@ -72,7 +74,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
     .title {
       margin-bottom: 20px;
       font-weight: bold;

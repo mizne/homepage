@@ -6,8 +6,8 @@
     <div class="description">
       {{software.description}}
     </div>
-    <div class="image" :style="{'background-image': 'url(' + software.image + ')'}">
-
+    <div class="image-wrapper" :style="{'width': software.title === '智慧会展' ? '60%' : ''}">
+      <img :src="software.image" alt="">
     </div>
     <div class="know-more">
       <el-button @click.native="knowMore()">了解更多</el-button>
@@ -44,18 +44,14 @@ export default {
     .description {
       padding: 0 20px;
     }
-    .image {
-      height: 200px;
-    }
   }
 }
 
 @media (min-width: 600px) {
   .ruanjianjieshao-software {
+    max-height: 1000px;
     margin-top: 50px;
-    .image {
-      height: 400px;
-    }
+
   }
 }
 .ruanjianjieshao-software {
@@ -71,11 +67,9 @@ export default {
     margin-top: 20px;
   }
 
-  .image {
+  .image-wrapper {
+    margin: 0 auto;
     margin-top: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 60% 60%;
   }
 
   .know-more {

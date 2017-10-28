@@ -46,11 +46,18 @@ export default {
 .ruanjianjieshao-right-function {
   margin-top: 30px;
   height: 200px;
+  background-color: #fefefe;
   display: flex;
   align-items: center;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   @include cardHover;
   padding: 20px;
+  &:hover .description {
+    color: white;
+  }
+  &:hover {
+    background-color: map-get($colors, primary);
+  }
 
   .icon-wrapper {
     width: 100px;

@@ -155,7 +155,7 @@ export default {
             align-items: center;
             i {
               font-size: 4rem;
-              color: $whiteText;
+              color: #fefefe;
             }
           }
         }
@@ -170,7 +170,7 @@ export default {
             height: 80px;
             line-height: 80px;
             background-color: #e95e97;
-            color: $whiteText;
+            color: #fefefe;
             font-size: 2rem;
             border-radius: 20px;
           }
