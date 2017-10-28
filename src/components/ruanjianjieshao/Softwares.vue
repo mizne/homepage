@@ -61,15 +61,15 @@ export default {
         {
           id: 5,
           title: '教育培训',
-          description: '适合于美容美发行业的简单的会员软件，实现会员办卡消费、打折、积分等。',
-          image: require('../../assets/images/ruanjianjieshao/meirongmeifa.gif'),
+          description: '适合于教育培训行业的简单的会员软件，实现会员办卡消费、打折、积分等。',
+          image: require('../../assets/images/ruanjianjieshao/jiaoyupeixun.png'),
           route: 'jiaoyupeixun'
         },
         {
           id: 6,
           title: '酒店商城',
           description:
-            '适合于指定行业或者一定区域内运行联盟一卡通，亦或商家联盟，会员统一办卡、消费、积分。盈利模式多样化，可个性化定制。',
+            '适合于酒店行业的简单的会员软件，实现会员办卡消费、打折、积分等。盈利模式多样化，可个性化定制。',
           image: require('../../assets/images/ruanjianjieshao/shangjialianmeng.png'),
           route: 'jiudianshangcheng'
         },
@@ -77,7 +77,7 @@ export default {
           id: 7,
           title: '超市商城',
           description:
-            '适合于指定行业或者一定区域内运行联盟一卡通，亦或商家联盟，会员统一办卡、消费、积分。盈利模式多样化，可个性化定制。',
+            '适合于超市行业的简单的会员软件，实现会员办卡消费、打折、积分等。盈利模式多样化，可个性化定制。',
           image: require('../../assets/images/ruanjianjieshao/shangjialianmeng.png'),
           route: 'chaoshishangcheng'
         }
