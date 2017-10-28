@@ -123,7 +123,7 @@ export default {
 
 @media (min-width: 600px) {
   .image {
-    height: 600px;
+    height: 700px;
   }
 }
 

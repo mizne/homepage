@@ -105,7 +105,6 @@ export default {
       font-family: -webkit-pictograph;
       border: 2px solid #267bcb;
       border-radius: 50%;
-
     }
   }
 
@@ -129,8 +128,6 @@ export default {
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        border-width: 2px;
-        border-style: solid;
         background-color: #5e4c98;
         i {
           font-size: 3.4rem;
