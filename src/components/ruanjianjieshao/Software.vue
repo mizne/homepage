@@ -39,8 +39,6 @@ export default {
 @media (max-width: 600px) {
   .ruanjianjieshao-software {
     margin-top: 50px;
-    max-height: 650px;
-
     .description {
       padding: 0 20px;
     }
@@ -49,9 +47,7 @@ export default {
 
 @media (min-width: 600px) {
   .ruanjianjieshao-software {
-    max-height: 1000px;
     margin-top: 50px;
-
   }
 }
 .ruanjianjieshao-software {
