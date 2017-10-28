@@ -1,0 +1,26 @@
+@import 'variables';
+
+@mixin cardHover {
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  cursor: default;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 34px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  &:hover .header {
+    color: map-get($colors, primary);
+  }
+  &:hover .description {
+    color: map-get($colors, primary);
+  }
+}
+
+@mixin textHover {
+  transition: color .2s;
+  &:hover {
+    color: map-get($colors, primary);
+  }
+  cursor: default;
+}

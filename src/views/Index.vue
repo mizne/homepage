@@ -1,35 +1,21 @@
 <template>
-  <div class="index">
-
+  <div class="index page">
     <carousel :images="images"></carousel>
-
-    <transition enter-active-class="animated fadeInUp">
-      <company-idea v-show="ideaAnimated"></company-idea>
-    </transition>
-
-    <transition enter-active-class="animated fadeInUp">
-      <service v-show="serviceAnimated"></service>
-    </transition>
-
-    <transition enter-active-class="animated fadeInUp">
-      <about v-show="aboutAnimated"></about>
-    </transition>
-
-    <transition enter-active-class="animated fadeInUp">
-      <advantage v-show="advantageAnimated"></advantage>
-    </transition>
-
+    <software-summary></software-summary>
+    <more-function></more-function>
+    <more-reasons></more-reasons>
+    <more-company></more-company>
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
 
-import Carousel from '@/components/IndexCarousel'
-import CompanyIdea from '@/components/IndexCompanyIdea'
-import Service from '@/components/IndexService'
-import About from '@/components/IndexAbout'
-import Advantage from '@/components/IndexAdvantage'
+import Carousel from '@/components/index/IndexCarousel'
+import SoftwareSummary from '@/components/index/IndexSoftwareSummary'
+import MoreFunction from '@/components/index/IndexMoreFunction'
+import MoreReasons from '@/components/index/IndexMoreReasons'
+import MoreCompany from '@/components/index/IndexMoreCompany'
 
 import '@/util/wheel-event-polyfill'
 
@@ -37,10 +23,10 @@ export default {
   name: 'Index',
   components: {
     'carousel': Carousel,
-    'company-idea': CompanyIdea,
-    'service': Service,
-    'about': About,
-    'advantage': Advantage
+    'software-summary': SoftwareSummary,
+    'more-function': MoreFunction,
+    'more-reasons': MoreReasons,
+    'more-company': MoreCompany
   },
   data () {
     return {
@@ -52,11 +38,11 @@ export default {
       images: [{
         header: '新零售全渠道客户营销CRM解决方案',
         content: '帮助商家有效实现客户引流、客户精准营销和客户管理',
-        url: require('../assets/images/banner-ld.jpg')
+        url: require('../assets/images/shouye/banner-1.jpg')
       }, {
         header: '新零售全渠道客户营销CRM行业标杆',
         content: '让我们一起改变移动电商',
-        url: require('../assets/images/1-bg.jpg')
+        url: require('../assets/images/shouye/banner-2.jpg')
       }]
     }
   },
@@ -91,7 +77,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.index {
-
-}
 </style>

@@ -10,6 +10,7 @@ import FastClick from 'fastclick'
 import AMap from 'vue-amap';
 
 import 'animate.css'
+import 'normalize-css/normalize.css'
 
 Vue.config.productionTip = false
 FastClick.attach(document.body)

@@ -2,11 +2,23 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Index from '@/views/Index'
-import Service from '@/views/Service'
-import About from '@/views/About'
-import Contract from '@/views/Contract'
-import News from '@/views/News'
-import Hire from '@/views/Hire'
+
+import Ruanjianjieshao from '@/views/Ruanjianjieshao'
+import Zhihuishangquan from '@/views/Zhihuishangquan'
+import Zhihuihuizhan from '@/views/Zhihuihuizhan'
+import Shangjiaban from '@/views/Shangjiaban'
+import Liansuoban from '@/views/Liansuoban'
+import Shangjialianmeng from '@/views/Shangjialianmeng'
+import Jiaoyupeixun from '@/views/Jiaoyupeixun'
+import Jiudianshangcheng from '@/views/Jiudianshangcheng'
+import Chaoshishangcheng from '@/views/Chaoshishangcheng'
+
+import Ruanjiangongneng from '@/views/Ruanjiangongneng'
+import Yingjianjieshao from '@/views/Yingjianjieshao'
+import Kehuanli from '@/views/Kehuanli'
+import Qudaodaili from '@/views/Qudaodaili'
+import Dingzhikaifa from '@/views/Dingzhikaifa'
+import Gongsijianjie from '@/views/Gongsijianjie'
 
 Vue.use(Router)
 
@@ -17,24 +29,64 @@ export default new Router({
     name: 'index',
     component: Index
   }, {
-    path: '/service',
-    name: 'service',
-    component: Service
+    path: '/ruanjianjieshao',
+    name: 'ruanjianjieshao',
+    component: Ruanjianjieshao
   }, {
-    path: '/about',
-    name: 'about',
-    component: About
+    path: '/zhihuishangquan',
+    name: 'zhihuishangquan',
+    component: Zhihuishangquan
   }, {
-    path: '/news',
-    name: 'news',
-    component: News
+    path: '/zhihuihuizhan',
+    name: 'zhihuihuizhan',
+    component: Zhihuihuizhan
   }, {
-    path: '/contract',
-    name: 'contract',
-    component: Contract
+    path: '/shangjiaban',
+    name: 'shangjiaban',
+    component: Shangjiaban
   }, {
-    path: '/hire',
-    name: 'hire',
-    component: Hire
+    path: '/liansuoban',
+    name: 'liansuoban',
+    component: Liansuoban
+  }, {
+    path: '/shangjialianmeng',
+    name: 'shangjialianmeng',
+    component: Shangjialianmeng
+  }, {
+    path: '/jiaoyupeixun',
+    name: 'jiaoyupeixun',
+    component: Jiaoyupeixun
+  }, {
+    path: '/jiudianshangcheng',
+    name: 'jiudianshangcheng',
+    component: Jiudianshangcheng
+  }, {
+    path: '/chaoshishangcheng',
+    name: 'chaoshishangcheng',
+    component: Chaoshishangcheng
+  }, {
+    path: '/ruanjiangongneng',
+    name: 'ruanjiangongneng',
+    component: Ruanjiangongneng
+  }, {
+    path: '/yingjianjieshao',
+    name: 'yingjianjieshao',
+    component: Yingjianjieshao
+  }, {
+    path: '/kehuanli',
+    name: 'kehuanli',
+    component: Kehuanli
+  }, {
+    path: '/qudaodaili',
+    name: 'qudaodaili',
+    component: Qudaodaili
+  }, {
+    path: '/dingzhikaifa',
+    name: 'dingzhikaifa',
+    component: Dingzhikaifa
+  }, {
+    path: '/gongsijianjie',
+    name: 'gongsijianjie',
+    component: Gongsijianjie
   }]
 })
