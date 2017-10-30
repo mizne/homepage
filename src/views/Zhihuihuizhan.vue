@@ -56,8 +56,7 @@ export default {
       banner: require('../assets/images/zhihuihuizhan/banner.jpg'),
       general: {
         title: '智慧展台 i-rdesk',
-        description:
-          `i-rdesk智慧接待台，基于会展大数据和共享经济理念，为大中型会展场景中的参展商提供观众接待、
+        description: `i-rdesk智慧接待台，基于会展大数据和共享经济理念，为大中型会展场景中的参展商提供观众接待、
           数据管理等多项智能服务，提供以精准营销服务、促进贸易配对、创造新商机为核心的智慧会展解决方案。`,
         image: require('../assets/images/zhihuihuizhan/banner_small.png')
       },
@@ -71,16 +70,14 @@ export default {
         {
           id: 0,
           title: '智管理',
-          description:
-            `通过i-rdesk前端透明窗体快速扫描观众名片，识别胸卡、微信二维码等证件信息，
+          description: `通过i-rdesk前端透明窗体快速扫描观众名片，识别胸卡、微信二维码等证件信息，
             进行登记，方便展商快速采集观众信息。`,
           image: require('../assets/images/zhihuihuizhan/zhiguanli.png')
         },
         {
           id: 1,
           title: '慧营销',
-          description:
-            `内置多款展台互动游戏应用，通过关联现场屏幕显示，试用在展会期间，通过线上线下的互动分享，
+          description: `内置多款展台互动游戏应用，通过关联现场屏幕显示，试用在展会期间，通过线上线下的互动分享，
             以增加展台曝光，提升观众对展台的关注度。`,
           image: require('../assets/images/zhihuihuizhan/huiyingxiao.png')
         },
@@ -107,16 +104,14 @@ export default {
         {
           id: 1,
           title: '慧更多',
-          description:
-            `支持微信小程序的扩展功能，不限用户数量和连接数。支持展商在展会期间链接到场馆、服务商、主办方、观众的多项智能化应用。`
+          description: `支持微信小程序的扩展功能，不限用户数量和连接数。支持展商在展会期间链接到场馆、服务商、主办方、观众的多项智能化应用。`
         }
       ],
       ideas2: [
         {
           id: 0,
           title: '展位/展品',
-          description:
-            `延长展商的参展传播时间，最大化参展效果:展前线上宣传，展中约见客户，展后持续跟进;
+          description: `延长展商的参展传播时间，最大化参展效果:展前线上宣传，展中约见客户，展后持续跟进;
             提高展商与观众的沟通效率，加强互动;展位和展品可按分类查看，支持智能检索，
             还可预约、咨询、评论、下载资料等;展商页由展商自主在线制作，展品及资料等内容可任意添加，无数量限制。`,
           image: require('../assets/images/zhihuihuizhan/zhanweizhanpin.png')
@@ -190,6 +185,9 @@ export default {
     .total2 {
       .content {
         flex-direction: column;
+        .content-item {
+          margin-top: 20px;
+        }
       }
     }
   }
@@ -208,6 +206,11 @@ export default {
     .total2 {
       .content {
         margin-top: 50px;
+        .content-item {
+          &:not(:first-child) {
+            margin-left: 50px;
+          }
+        }
       }
     }
   }
@@ -243,10 +246,6 @@ export default {
         flex-direction: column;
         @include cardHover;
         padding: 20px;
-        &:not(:first-child) {
-          margin-left: 50px;
-        }
-
         .image {
           width: 100px;
           height: 100px;

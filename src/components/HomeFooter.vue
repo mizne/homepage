@@ -6,8 +6,9 @@
         <ul>
           <li><router-link to="/zhihuishangquan">智慧商圈</router-link></li>
           <li><router-link to="/zhihuihuizhan">智慧会展</router-link></li>
+          <li><router-link to="/shangjiaban">智慧商家版</router-link></li>
           <li><router-link to="/liansuoban">连锁版</router-link></li>
-          <li><router-link to="/shangjiaban">商家联盟</router-link></li>
+          <li><router-link to="/shangjialianmeng">商家联盟</router-link></li>
           <li><router-link to="/jiaoyupeixun">教育培训</router-link></li>
           <li><router-link to="/jiudianshangcheng">酒店商城</router-link></li>
           <li><router-link to="/chaoshishangcheng">超市商城</router-link></li>

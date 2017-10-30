@@ -1,6 +1,6 @@
 <template>
 	<div class="carousel">
-      <el-carousel :interval="4000" height="650px">
+      <el-carousel :interval="4000">
         <el-carousel-item v-for="item in images" :key="item.$index">
           <div class="image" :style="{'background-image': 'url(' + item.url + ')'}">
             <!-- <div class="header">
@@ -31,19 +31,24 @@ export default {
 @media (max-width: 600px) {
   .carousel {
     .image {
-      .header {
-        line-height: 60px;
-      }
+      height: 300px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .carousel {
+    .image {
+      height: 700px;
     }
   }
 }
 
 .carousel {
   .image {
-    height: 650px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     overflow: hidden;
 
     .header {
@@ -51,6 +56,7 @@ export default {
       font-size: 3rem;
       font-weight: 700;
       color: #fff;
+      line-height: 60px;
     }
 
     .content {

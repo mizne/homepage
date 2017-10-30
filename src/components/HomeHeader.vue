@@ -2,7 +2,9 @@
   <div class="home-header">
     <div class="logo">
       <!-- <h1 style="margin-top: 0;">腾宣威</h1> -->
-      <img src="../assets/images/shouye/logo.png" alt="腾宣威软件科技">
+      <a to="/" @click="routeTo('index')">
+        <img src="../assets/images/shouye/logo.png" alt="腾宣威软件科技">
+      </a>
     </div>
     <div class="tabs">
       <a to="/" @click="routeTo('index')" class="item index" :class="{'selected': selectedTab === ''}">
