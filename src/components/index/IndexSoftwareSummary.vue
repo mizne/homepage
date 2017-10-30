@@ -13,10 +13,12 @@
     <div class="software-content-pc">
       <el-row :gutter="20">
         <el-col :span="12">
-          <card title="智慧商圈客户管理软件" @view="$router.push({name: 'zhihuishangquan'})" content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#B33390" style="height: 220px"></card>
+          <card title="智慧商圈客户管理软件" @view="$router.push({name: 'zhihuishangquan'})"
+           content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#B33390" style="height: 220px"></card>
         </el-col>
         <el-col :span="12">
-          <card title="智慧会展客户管理软件" @view="$router.push({name: 'zhihuihuizhan'})" content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#4734B2" style="height: 220px;"></card>
+          <card title="智慧会展客户管理软件" @view="$router.push({name: 'zhihuihuizhan'})"
+           content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#4734B2" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
@@ -48,25 +50,32 @@
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="8">
-          <card title="智慧商家版客户管理软件" @view="$router.push({name: 'shangjiaban'})" content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#7C33B3" style="height: 220px"></card>
+          <card title="智慧商家版客户管理软件" @view="$router.push({name: 'shangjiaban'})"
+           content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#7C33B3" style="height: 220px"></card>
         </el-col>
         <el-col :span="8">
-          <card title="连锁版客户管理软件" @view="$router.push({name: 'liansuoban'})" content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
+          <card title="连锁版客户管理软件" @view="$router.push({name: 'liansuoban'})"
+           content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
         </el-col>
         <el-col :span="8">
-          <card title="商家联盟客户管理软件" @view="$router.push({name: 'shangjialianmeng'})" content="针对商家联盟客户积分打折、商家返利结算的一项管理系统" color="#6CB235" style="height: 220px;"></card>
+          <card title="商家联盟客户管理软件" @view="$router.push({name: 'shangjialianmeng'})"
+           content="针对商家联盟客户积分打折、商家返利结算的一项管理系统" color="#6CB235" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="8">
-          <card title="教育培训客户管理软件" @view="$router.push({name: 'jiaoyupeixun'})" content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#D7D8D9" style="height: 220px"></card>
+          <card title="教育培训客户管理软件" @view="$router.push({name: 'jiaoyupeixun'})"
+           content="通过线上和线下融合，通过互动营销进行引流和二次精准营销，提升营收和利润。" color="#D7D8D9" style="height: 220px"></card>
         </el-col>
         <el-col :span="8">
-          <card title="酒店商城客户管理软件" @view="$router.push({name: 'jiudianshangcheng'})" content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#34B283" style="height: 220px;"></card>
+          <card title="酒店商城客户管理软件" @view="$router.push({name: 'jiudianshangcheng'})"
+           content="部署新零售产品，酒店可以改变传统房间摆放东西的模式，客人入住可以扫码线上购物，方便管理，
+丰富商品种类，减少不必要库存，后期也可以代卖周边的商家产品。" color="#34B283" style="height: 220px;"></card>
         </el-col>
         <el-col :span="8">
-          <card title="超市商城客户管理软件" @view="$router.push({name: 'chaoshishangcheng'})" content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#B0B234" style="height: 220px;"></card>
+          <card title="超市商城客户管理软件" @view="$router.push({name: 'chaoshishangcheng'})"
+           content="部署新零售产品，改变传统门店的客户流有限问题，消费即会员，管理客户关系，同时转换美团等客户到自有平台，降低每笔成本，管理所有客户数据。" color="#B0B234" style="height: 220px;"></card>
         </el-col>
       </el-row>
     </div>
@@ -74,49 +83,58 @@
     <div class="software-content-mobile">
       <el-row :gutter="20">
         <el-col :span="24">
-          <card title="智慧商圈客户管理软件" @view="$router.push({name: 'zhihuishangquan'})" content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#B33390" style="height: 220px"></card>
+          <card title="智慧商圈客户管理软件" @view="$router.push({name: 'zhihuishangquan'})"
+           content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#B33390" style="height: 220px"></card>
         </el-col>
 
       </el-row>
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-          <card title="智慧会展客户管理软件" @view="$router.push({name: 'zhihuihuizhan'})" content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#4734B2" style="height: 220px;"></card>
+          <card title="智慧会展客户管理软件" @view="$router.push({name: 'zhihuihuizhan'})"
+           content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#4734B2" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-          <card title="智慧商家版客户管理软件" @view="$router.push({name: 'shangjiaban'})" content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#7C33B3" style="height: 220px;"></card>
+          <card title="智慧商家版客户管理软件" @view="$router.push({name: 'shangjiaban'})"
+           content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#7C33B3" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-          <card title="连锁版客户管理软件" @view="$router.push({name: 'liansuoban'})" content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
+          <card title="连锁版客户管理软件" @view="$router.push({name: 'liansuoban'})"
+           content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-         <card title="商家联盟客户管理软件" @view="$router.push({name: 'shangjialianmeng'})" content="针对商家联盟客户积分打折、商家返利结算的一项管理系统" color="#6CB235" style="height: 220px;"></card>
+         <card title="商家联盟客户管理软件" @view="$router.push({name: 'shangjialianmeng'})"
+          content="针对商家联盟客户积分打折、商家返利结算的一项管理系统" color="#6CB235" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-          <card title="教育培训客户管理软件" @view="$router.push({name: 'jiaoyupeixun'})" content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#D7D8D9" style="height: 220px"></card>
+          <card title="教育培训客户管理软件" @view="$router.push({name: 'jiaoyupeixun'})"
+           content="通过线上和线下融合，通过互动营销进行引流和二次精准营销，提升营收和利润。" color="#D7D8D9" style="height: 220px"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-          <card title="酒店商城客户管理软件" @view="$router.push({name: 'jiudianshangcheng'})" content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#34B283" style="height: 220px;"></card>
+          <card title="酒店商城客户管理软件" @view="$router.push({name: 'jiudianshangcheng'})"
+           content="部署新零售产品，酒店可以改变传统房间摆放东西的模式，客人入住可以扫码线上购物，方便管理，
+丰富商品种类，减少不必要库存，后期也可以代卖周边的商家产品。" color="#34B283" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
-          <card title="超市商城客户管理软件" @view="$router.push({name: 'chaoshishangcheng'})" content="为客户提供精准营销服务、促进贸易配对、创造新商机的智慧软件" color="#B0B234" style="height: 220px;"></card>
+          <card title="超市商城客户管理软件" @view="$router.push({name: 'chaoshishangcheng'})"
+           content="部署新零售产品，改变传统门店的客户流有限问题，消费即会员，管理客户关系，同时转换美团等客户到自有平台，降低每笔成本，管理所有客户数据。" color="#B0B234" style="height: 220px;"></card>
         </el-col>
       </el-row>
     </div>
