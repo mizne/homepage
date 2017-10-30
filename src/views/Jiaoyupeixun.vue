@@ -47,7 +47,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/jiaoyupeixun/banner.png'),
+      banner: require('../assets/images/jiaoyupeixun/banner.jpg'),
       fangans: [
         {
           id: 0,

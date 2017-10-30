@@ -53,7 +53,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/zhihuihuizhan/banner.png'),
+      banner: require('../assets/images/zhihuihuizhan/banner.jpg'),
       general: {
         title: '智慧展台 i-rdesk',
         description:

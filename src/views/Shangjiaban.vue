@@ -149,7 +149,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/zhihuishangjiaban/banner.png'),
+      banner: require('../assets/images/zhihuishangjiaban/banner.jpg'),
       funcs: [
         {
           id: 0,
@@ -613,9 +613,7 @@ export default {
           margin-top: 20px;
         }
         .description {
-          margin-top: 20px;
           width: 200px;
-          min-height: 100px;
         }
       }
     }
@@ -624,9 +622,6 @@ export default {
   .xianshangshangcheng {
     margin-top: 50px;
 
-    .description {
-      margin-top: 30px;
-    }
     .content {
       margin-top: 30px;
       display: flex;

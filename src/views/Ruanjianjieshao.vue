@@ -30,7 +30,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/ruanjianjieshao/banner-1.gif'),
+      banner: require('../assets/images/ruanjianjieshao/banner.jpg'),
       daili: {
         title: '诚招合作代理',
         desc1: '腾宣威软件科技期待您的加入',

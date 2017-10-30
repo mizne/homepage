@@ -122,7 +122,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/liansuoban/banner.png'),
+      banner: require('../assets/images/liansuoban/banner.jpg'),
       youshis: [
         {
           id: 0,
@@ -283,9 +283,7 @@ export default {
     @include cardHover;
     padding: 20px;
     .description {
-      margin-top: 20px;
       font-size: 1.5rem;
-      color: $descColor;
     }
   }
 

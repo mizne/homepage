@@ -28,9 +28,10 @@ export default {
     .content {
       flex-direction: column;
       padding: 0 20px;
-      .image-wrapper {
-        background-size: 100% 100%;
-        margin-top: 20px;
+      .image-container {
+        &:not(:first-child) {
+          margin-top: 30px;
+        }
       }
     }
   }
@@ -39,10 +40,9 @@ export default {
 @media (min-width: 600px) {
   .zhihuishangquan-mubiaokequn {
     .content {
-      .image-wrapper {
-        background-size: cover;
-        &:last-child {
-          margin-left: 50px;
+      .image-container {
+        &:not(:first-child) {
+          margin-left: 5%;
         }
       }
     }
@@ -56,11 +56,8 @@ export default {
     margin-top: 50px;
     display: flex;
     .image-container {
-      &:not(:first-child) {
-        margin-left: 5%;
-      }
       img {
-        transition: transform .3s;
+        transition: transform 0.3s;
       }
       &:hover img {
         transform: scale(1.05);

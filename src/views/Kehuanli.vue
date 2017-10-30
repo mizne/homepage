@@ -46,7 +46,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/kehuanli/banner.png'),
+      banner: require('../assets/images/kehuanli/banner.jpg'),
       anlis: [
         {
           id: 0,

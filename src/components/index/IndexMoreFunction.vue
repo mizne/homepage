@@ -37,7 +37,7 @@ export default {
           icon: 'icon-pos',
           borderColor: '#B33390',
           active: true,
-          image: require('../../assets/images/shouye/banner-10.png')
+          image: require('../../assets/images/shouye/banner-10.jpg')
         },
         {
           label: '微信会员',

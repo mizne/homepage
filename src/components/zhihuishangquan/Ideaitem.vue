@@ -36,9 +36,5 @@ export default {
   margin-top: 40px;
   @include cardHover;
   padding: 20px;
-  .description {
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
 }
 </style>

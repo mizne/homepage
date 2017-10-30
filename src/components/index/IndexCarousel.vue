@@ -3,12 +3,12 @@
       <el-carousel :interval="4000" height="650px">
         <el-carousel-item v-for="item in images" :key="item.$index">
           <div class="image" :style="{'background-image': 'url(' + item.url + ')'}">
-            <div class="header">
+            <!-- <div class="header">
               {{item.header}}
             </div>
             <div class="content">
               {{item.content}}
-            </div>
+            </div> -->
           </div>
         </el-carousel-item>
       </el-carousel>
@@ -16,41 +16,50 @@
 </template>
 
 <script>
-	export default {
-		name: 'IndexCarousel',
-		props: {
-			images: {
-				type: Array,
-				default: () => []
-			}
-		}
-	}
+export default {
+  name: 'IndexCarousel',
+  props: {
+    images: {
+      type: Array,
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped lang="scss">
+@media (max-width: 600px) {
   .carousel {
     .image {
-      height: 650px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      overflow: hidden;
-      display: block;
-
       .header {
-        padding-top: 10rem;
-        font-size: 3rem;
-        font-weight: 700;
-        color: #fff;
-      }
-
-      .content {
-        width: 80%;
-        margin: 1rem auto;
-        font-size: 24px;
-        color: #fff;
-        line-height: 2.4rem;
+        line-height: 60px;
       }
     }
   }
+}
+
+.carousel {
+  .image {
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    .header {
+      padding-top: 10rem;
+      font-size: 3rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .content {
+      width: 80%;
+      margin: 1rem auto;
+      font-size: 24px;
+      color: #fff;
+      line-height: 2.4rem;
+    }
+  }
+}
 </style>

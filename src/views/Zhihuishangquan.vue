@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/zhihuishangquan/banner.png'),
+      banner: require('../assets/images/zhihuishangquan/banner.jpg'),
       general: {
         title: '基于小V宝商圈导航能力 开展引流和精准营销服务',
         description: `针对商贸城、购物街、本地商圈、大型MALL普遍入驻多业态商家的现状，

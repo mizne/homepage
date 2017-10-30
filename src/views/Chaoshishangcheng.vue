@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/chaoshishangcheng/banner.png'),
+      banner: require('../assets/images/chaoshishangcheng/banner.jpg'),
       steps: [
         {
           id: 0,

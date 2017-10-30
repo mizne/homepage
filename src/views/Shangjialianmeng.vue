@@ -100,7 +100,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/shangjialianmeng/banner.png'),
+      banner: require('../assets/images/shangjialianmeng/banner.jpg'),
       steps: [
         {
           id: 0,
@@ -192,16 +192,8 @@ export default {
     @include cardHover;
     padding: 20px;
     margin-top: 100px;
-    .header {
-      font-size: 2rem;
-      margin-top: 20px;
-    }
-    .header {
-      margin-top: 50px;
-    }
 
     .description {
-      margin-top: 50px;
       font-size: 1.5rem;
       line-height: 40px;
       li {
@@ -262,7 +254,6 @@ export default {
     margin-top: 50px;
 
     .description {
-      margin-top: 20px;
       font-size: 1.5rem;
     }
   }

@@ -47,11 +47,11 @@ export default {
   name: 'Ruanjiangongneng',
   components: {
     banner: Banner,
-    'more-function': MoreFunction,
+    'more-function': MoreFunction
   },
   data() {
     return {
-      banner: require('../assets/images/ruanjiangongneng/banner.png'),
+      banner: require('../assets/images/ruanjiangongneng/banner.jpg'),
       funcs: [
         {
           id: 0,
@@ -103,7 +103,6 @@ export default {
 
 @media (max-width: 600px) {
   .ruanjiangongneng {
-
     .youshigongneng {
       .content {
         .func-item {
@@ -118,6 +117,17 @@ export default {
 }
 
 @media (min-width: 600px) {
+  .ruanjiangongneng {
+    .youshigongneng {
+      .content {
+        .func-item {
+          .description {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
 }
 
 .ruanjiangongneng {
@@ -137,10 +147,6 @@ export default {
         padding: 20px;
         &:hover .desc {
           color: map-get($colors, primary);
-        }
-
-        .description {
-          margin: 0;
         }
 
         .icon-container {

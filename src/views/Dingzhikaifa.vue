@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/dingzhikaifa/banner.png'),
+      banner: require('../assets/images/dingzhikaifa/banner.jpg'),
       items: [
         {
           id: 0,

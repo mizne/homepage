@@ -36,13 +36,19 @@ export default {
       aboutAnimated: false,
       advantageAnimated: false,
       images: [{
-        header: '新零售全渠道客户营销CRM解决方案',
-        content: '帮助商家有效实现客户引流、客户精准营销和客户管理',
+        // header: '新零售全渠道客户营销CRM解决方案',
+        // content: '帮助商家有效实现客户引流、客户精准营销和客户管理',
         url: require('../assets/images/shouye/banner-1.jpg')
       }, {
-        header: '新零售全渠道客户营销CRM行业标杆',
-        content: '让我们一起改变移动电商',
+        // header: '新零售全渠道客户营销CRM行业标杆',
+        // content: '让我们一起改变移动电商',
         url: require('../assets/images/shouye/banner-2.jpg')
+      }, {
+        url: require('../assets/images/shouye/banner-3.jpg')
+      }, {
+        url: require('../assets/images/shouye/banner-4.jpg')
+      }, {
+        url: require('../assets/images/shouye/banner-5.jpg')
       }]
     }
   },

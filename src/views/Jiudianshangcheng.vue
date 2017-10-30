@@ -32,7 +32,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/jiudianshangcheng/banner.png'),
+      banner: require('../assets/images/jiudianshangcheng/banner.jpg'),
       steps: [
         {
           id: 0,

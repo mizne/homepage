@@ -124,7 +124,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/gongsijianjie/banner.png'),
+      banner: require('../assets/images/gongsijianjie/banner.jpg'),
       items: [
         {
           id: 0,

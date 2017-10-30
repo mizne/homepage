@@ -37,30 +37,18 @@ export default {
 @import '../../assets/scss/mixins';
 
 @media (max-width: 600px) {
-  .ruanjianjieshao-software {
-    margin-top: 50px;
-    .description {
-      padding: 0 20px;
-    }
-  }
 }
 
 @media (min-width: 600px) {
-  .ruanjianjieshao-software {
-    margin-top: 50px;
-  }
 }
 .ruanjianjieshao-software {
   @include cardHover;
   box-sizing: border-box;
   padding: 20px;
+  margin-top: 50px;
 
   &:hover .description {
     color: map-get($colors, primary);
-  }
-
-  .description {
-    margin-top: 20px;
   }
 
   .image-wrapper {
