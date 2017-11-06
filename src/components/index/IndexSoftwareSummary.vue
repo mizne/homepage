@@ -4,17 +4,22 @@
         专业的您， 需要专业的软件
     </div>
     <div class="software-description description">
-      <div>基于互联网/物联网及大数据技术为智慧商圈和智慧会展提供完善的智慧解决方案，</div>
-      <div>其中汽车店、美容美发店、儿童乐园店、健身培训店、小商铺、杂货店及其他小微型店铺，
-        不妨试试腾宣威客户管理软件，我们所提供的帮助不止一点点!
+      <div>我们致力于帮助商家从传统的以商品为中心的经营模式向以客户为中心的现代经营模式转变，
+        提供营销管理、数据精准分析、精准营销、活动管理、线上/线下商品管理、O2O交易管理、进销存管理、
+        会员及客户管理等新零售核心运营工具，丰富企业主及商家运用互联网工具进行高效运营，提升营收、降低成本。
       </div>
+      <div>
+        如果您是酒店宾馆、餐饮店、婚庆店、汽车店、美容美发店、儿童乐园店、健身、培训、小商铺、杂货店及其他中小企业， 
+        不妨试试腾宣威客户管理系列软件，我们所提供的帮助不止一点点!
+      </div>
+      
     </div>
 
     <div class="software-content-pc">
       <el-row :gutter="20">
         <el-col :span="12">
           <card title="智慧商圈客户管理软件" @view="$router.push({name: 'zhihuishangquan'})"
-           content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#B33390" style="height: 220px"></card>
+           content="基于小V宝商圈引流能力开展会员积分和精准分析、精准营销、互动营销等服务" color="#B33390" style="height: 220px"></card>
         </el-col>
         <el-col :span="12">
           <card title="智慧会展客户管理软件" @view="$router.push({name: 'zhihuihuizhan'})"
@@ -22,40 +27,14 @@
         </el-col>
       </el-row>
 
-      <!-- <el-row :gutter="20" style="margin-top: 20px;">
-        <el-col :span="8">
-          <card title="商家版客户管理软件" content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#6C34B3" style="height: 500px;"></card>
-        </el-col>
-        <el-col :span="16">
-          <el-row :gutter="20">
-            <el-col :span="12">
-              <card title="连锁版客户管理软件" content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
-            </el-col>
-            <el-col :span="12">
-              <card title="汽车店客户管理软件" content="适合汽车店、4S会员储值等几次消费软件" color="#31B36D" style="height: 220px;"></card>
-            </el-col>
-          </el-row>
-
-          <el-row :gutter="20" style="margin-top: 20px;">
-            <el-col :span="12">
-              <card title="商家联盟客户管理软件" content="针对商家联盟客户积分打折、商家返利结算的一项管理系统" color="#6CB235" style="height: 220px;"></card>
-            </el-col>
-            <el-col :span="12">
-              <card title="美容美发店客户管理软件" content="支持会员办卡、打折消费的简单的美容美发店会员管理软件" color="#A5872D" style="height: 220px;"></card>
-            </el-col>
-          </el-row>
-        </el-col>
-      </el-row> -->
-
-
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="8">
           <card title="智慧商家版客户管理软件" @view="$router.push({name: 'shangjiaban'})"
-           content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#7C33B3" style="height: 220px"></card>
+           content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式线上/线下管理平台，通过大数据智能分析能力等新零售能力。" color="#7C33B3" style="height: 220px"></card>
         </el-col>
         <el-col :span="8">
           <card title="连锁版客户管理软件" @view="$router.push({name: 'liansuoban'})"
-           content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
+           content="全国刷卡消费一卡通、数据及功能共享，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
         </el-col>
         <el-col :span="8">
           <card title="商家联盟客户管理软件" @view="$router.push({name: 'shangjialianmeng'})"
@@ -84,7 +63,7 @@
       <el-row :gutter="20">
         <el-col :span="24">
           <card title="智慧商圈客户管理软件" @view="$router.push({name: 'zhihuishangquan'})"
-           content="基于小V宝商圈导航能力并开展顾客引流和精准营销服务" color="#B33390" style="height: 220px"></card>
+           content="基于小V宝商圈引流能力开展会员积分和精准分析、精准营销、互动营销等服务" color="#B33390" style="height: 220px"></card>
         </el-col>
 
       </el-row>
@@ -98,14 +77,14 @@
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
           <card title="智慧商家版客户管理软件" @view="$router.push({name: 'shangjiaban'})"
-           content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式管理平台" color="#7C33B3" style="height: 220px;"></card>
+           content="超越电商和店商之间的二次思维，帮助老板解决客户管理、客户营销、客户管理、库存管理的一站式线上/线下管理平台，通过大数据智能分析能力等新零售能力。" color="#7C33B3" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
       <el-row :gutter="20" style="margin-top: 20px;">
         <el-col :span="24">
           <card title="连锁版客户管理软件" @view="$router.push({name: 'liansuoban'})"
-           content="全国刷卡消费一卡通，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
+           content="全国刷卡消费一卡通、数据及功能共享，仅需一根网线" color="#3487B3" style="height: 220px;"></card>
         </el-col>
       </el-row>
 
@@ -159,6 +138,10 @@ export default {
   }
   .software-content-mobile {
     margin-top: 50px;
+  }
+
+  .software-description {
+    text-align: left;
   }
 }
 

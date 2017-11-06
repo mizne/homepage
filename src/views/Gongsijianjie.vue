@@ -50,7 +50,7 @@
             <div class="item-header">
               技术创新成果
             </div>
-            <div class="item-content">8项软件著作权，2项专利</div>
+            <div class="item-content">8项软件著作权，200项专利</div>
           </div>
           <div class="item">
             <div class="item-header">
@@ -136,8 +136,8 @@ export default {
         {
           id: 1,
           title: '我们的服务',
-          description: `经历 10000 小时，我们已拥有超过千万级的应用服务流量，其中涵盖国内各类
-          客户。我们主要为他们提供三大类综合解决方案：企业及门店管理、品牌管理、数字化运营。`
+          description: `经历 10000 小时，我们已拥有超过千万级的应用服务流量，其中涵盖国内各类 客户。
+          我们主要为他们提供三大类综合解决方案：运营为核心的客户管理、品牌管理、数字化运营。`
         }
       ]
     }

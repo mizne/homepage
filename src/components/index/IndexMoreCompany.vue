@@ -7,7 +7,8 @@
         超过10000家组织、团体信任并选择腾宣威客户管理软件
       </div>
     <div class="more-company-tabs">
-      <div class="more-company-tab image" v-for="(tab,index) in tabs" :key="tab.value" :style="{'background-image': 'url(' + tab.image + ')'}">
+      <div class="more-company-tab image-container" v-for="(tab,index) in tabs" :key="tab.id">
+        <img :src="tab.image" alt="">
       </div>
     </div>
   </div>
@@ -20,16 +21,24 @@ export default {
     return {
       tabs: [
         {
-          value: 'zhubao',
-          image: require('../../assets/images/shouye/zhubao.png')
+          id: 0,
+          image: require('../../assets/images/shouye/company-0.png')
         },
         {
-          value: 'dianshang',
-          image: require('../../assets/images/shouye/dianshang.png')
+          id: 1,
+          image: require('../../assets/images/shouye/company-1.png')
         },
         {
-          value: 'qichemeirong',
-          image: require('../../assets/images/shouye/qichemeirong.png')
+          id: 2,
+          image: require('../../assets/images/shouye/company-2.png')
+        },
+        {
+          id: 3,
+          image: require('../../assets/images/shouye/company-3.png')
+        },
+        {
+          id: 4,
+          image: require('../../assets/images/shouye/company-4.png')
         }
       ]
     }
@@ -45,7 +54,6 @@ export default {
     flex-direction: column;
 
     .more-company-tab {
-      height: 300px;
       &:not(:first-child) {
         margin-top: 20px;
       }
@@ -56,7 +64,6 @@ export default {
 @media (min-width: 600px) {
   .more-company-tabs {
     .more-company-tab {
-      height: 500px;
       &:not(:first-child) {
         margin-left: 20px;
       }
@@ -84,9 +91,6 @@ export default {
     .more-company-tab {
       flex: 1;
       @include cardHover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
     }
   }
 }

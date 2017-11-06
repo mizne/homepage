@@ -24,13 +24,13 @@
         </ul>
       </div>
 
-      <div class="kuaisudaohang info-item">
+      <!-- <div class="kuaisudaohang info-item">
         <div class="title">快速导航</div>
         <ul>
           <li><router-link to="/about">关于我们</router-link></li>
           <li><router-link to="/news">新闻中心</router-link></li>
         </ul>
-      </div>
+      </div> -->
 
       <div class="lianxiwomen info-item">
         <div class="title">

@@ -271,6 +271,11 @@ export default {
           &:not(:first-child) {
             margin-left: 20px;
           }
+
+          .header,
+          .description {
+            color: $whiteText;
+          }
         }
       }
     }
@@ -375,11 +380,11 @@ export default {
           .header {
             font-size: 1.3rem;
             margin-top: 20px;
-            color: $whiteText;
+            
           }
           .description {
             margin-top: 20px;
-            color: $whiteText;
+            
           }
         }
       }
