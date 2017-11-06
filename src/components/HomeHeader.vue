@@ -72,6 +72,9 @@
           <el-dropdown-item command="dingzhikaifa">
               定制开发
           </el-dropdown-item>
+          <el-dropdown-item command="gongsijianjie">
+              公司简介
+          </el-dropdown-item>
           <el-dropdown-item command="manager">
               登录入口
           </el-dropdown-item>
