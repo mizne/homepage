@@ -201,6 +201,7 @@ export default {
 
   .logo {
     margin-left: 50px;
+    max-height: 90px;
   }
 
   .tel {
