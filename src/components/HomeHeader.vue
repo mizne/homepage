@@ -42,7 +42,7 @@
       <a @click="routeTo('gongsijianjie')" class="item gongsijianjie" :class="{'selected': selectedTab === 'gongsijianjie'}">
         公司简介
       </a>
-      <a href="tel:02586662644" class="item tel">025-86662644</a>
+      <a :href="href" class="item tel">登录入口</a>
     </div>
 
     <div class="dropdown">
@@ -71,6 +71,9 @@
           </el-dropdown-item>
           <el-dropdown-item command="dingzhikaifa">
               定制开发
+          </el-dropdown-item>
+          <el-dropdown-item command="manager">
+              登录入口
           </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
