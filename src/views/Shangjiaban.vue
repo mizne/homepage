@@ -390,9 +390,6 @@ export default {
         flex-direction: column;
       }
     }
-    .guanlipingtai-image {
-      height: 900px;
-    }
 
     .guanliruanjian {
       .content {
@@ -483,10 +480,6 @@ export default {
           }
         }
       }
-    }
-
-    .guanlipingtai-image {
-      height: 3400px;
     }
 
     .guanliruanjian {
