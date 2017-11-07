@@ -94,7 +94,7 @@
         </div>
         <div class="xianfa youshi-item">
           <div class="title">先发优势</div>
-          <div class="item">代售点客户 100+</div>
+          <div class="item">代售点客户 1000+</div>
           <div class="item">SaaS 用户发展迅猛</div>
         </div>
       </div>

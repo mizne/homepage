@@ -1,7 +1,8 @@
 <template>
   <div class="more-reason-container">
     <div class="more-reason-header header">
-      <span class="prefix">让您信赖我们的</span><div class="number">3</div><span class="suffix">大理由</span>
+      <div class="prefix">让您信赖我们的</div>
+      <div class="suffix"><span class="number">3</span><span>大理由</span></div>
     </div>
     <div class="more-reason-tabs">
       <div class="more-reason-tab" v-for="(tab,index) in tabs" :key="tab.value">
@@ -57,14 +58,13 @@ export default {
 @media (max-width: 600px) {
   .number {
     font-size: 3rem;
-    top: 40px;
-    left: 110px;
+    // top: 40px;
+    // left: 110px;
     width: 50px;
     height: 50px;
     line-height: 54px;
   }
   .suffix {
-    margin-left: 80px;
   }
   .more-reason-tabs {
     margin-top: 50px;
@@ -75,14 +75,17 @@ export default {
 @media (min-width: 600px) {
   .number {
     font-size: 5rem;
-    top: -35px;
-    left: 51%;
+    // top: -35px;
+    // left: 51%;
     width: 90px;
     height: 90px;
     line-height: 94px;
   }
+  .prefix {
+    display: inline;
+  }
   .suffix {
-    margin-left: 100px;
+    display: inline;
   }
 }
 
@@ -99,8 +102,14 @@ export default {
       margin-right: 10px;
     }
 
+    .suffix {
+      span:last-child {
+        margin-left: 10px;
+      }
+    }
+
     .number {
-      position: absolute;
+      display: inline-block;
       color: #267bcb;
       font-family: -webkit-pictograph;
       border: 2px solid #267bcb;
