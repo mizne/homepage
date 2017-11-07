@@ -86,7 +86,7 @@ export default {
   },
   data() {
     return {
-      banner: require('../assets/images/qudaodaili/banner.jpg'),
+      banner: require('../assets/images/qudaodaili/banner.png'),
       fuwus: [
         {
           id: 0,

@@ -203,6 +203,8 @@ export default {
   padding: 20px 0;
 
   .logo {
+    width: 300px;
+    margin-top: 30px;
     margin-left: 50px;
     max-height: 90px;
   }
