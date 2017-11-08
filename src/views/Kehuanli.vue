@@ -78,14 +78,14 @@ export default {
           date: '2017年09-07',
           image: require('../assets/images/kehuanli/anli-3.png')
         },
-        {
-          id: 4,
-          title: '江苏中协智能全国广播软件系统开发',
-          desc: `我们采用"多对一顾问式面对面服务模式"，及时有效地为客户提供全方位产品和个性化系统解决方案，将传统CS架构改为
-          BS架构，实现PC端-移动端一体化，可以联网远程操控广播设备，使中协智能在全国广播系统的销售中遥遥领先。`,
-          date: '2017年09-06',
-          image: require('../assets/images/kehuanli/anli-4.png')
-        },
+        // {
+        //   id: 4,
+        //   title: '江苏中协智能全国广播软件系统开发',
+        //   desc: `我们采用"多对一顾问式面对面服务模式"，及时有效地为客户提供全方位产品和个性化系统解决方案，将传统CS架构改为
+        //   BS架构，实现PC端-移动端一体化，可以联网远程操控广播设备，使中协智能在全国广播系统的销售中遥遥领先。`,
+        //   date: '2017年09-06',
+        //   image: require('../assets/images/kehuanli/anli-4.png')
+        // },
         {
           id: 5,
           title: '上海联展有限公司',
