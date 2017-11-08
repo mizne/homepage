@@ -66,7 +66,7 @@ export default {
         {
           id: 5,
           title: '教育培训',
-          description: '适合于教育培训行业的简单的会员软件，实现会员办卡消费、打折、积分等。',
+          description: '适合于教育培训行业的简单的客户管理软件，通过线上和线下融合，通过互动营销进行引流和二次精准营销，提升营收和利润。',
           image: require('../../assets/images/ruanjianjieshao/jiaoyupeixun.png'),
           route: 'jiaoyupeixun',
           width: '100%'
@@ -75,7 +75,8 @@ export default {
           id: 6,
           title: '酒店商城',
           description:
-            '适合于酒店行业的简单的会员软件，实现会员办卡消费、打折、积分等。盈利模式多样化，可个性化定制。',
+            `适合于酒店行业的简单的客户管理软件，部署新零售产品，酒店可以改变传统房间摆放东西的模式，
+            客人入住可以扫码线上购物，方便管理，丰富商品种类，减少不必要库存，后期也可以代卖周边的商家产品。`,
           image: require('../../assets/images/ruanjianjieshao/jiudian.png'),
           route: 'jiudianshangcheng',
           width: '60%'
@@ -84,7 +85,7 @@ export default {
           id: 7,
           title: '超市商城',
           description:
-            '适合于超市行业的简单的会员软件，实现会员办卡消费、打折、积分等。盈利模式多样化，可个性化定制。',
+            '适合于超市行业的简单的客户管理软件，部署新零售产品，改变传统门店的客户流有限问题，消费即会员，管理客户关系，同时转换美团等客户到自有平台，降低每笔成本，管理所有客户数据。',
           image: require('../../assets/images/ruanjianjieshao/chaoshi.png'),
           route: 'chaoshishangcheng',
           width: '100%'

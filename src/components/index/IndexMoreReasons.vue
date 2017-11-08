@@ -31,13 +31,13 @@ export default {
         {
           label: '关于专业',
           value: 'pro',
-          description: '6年研发、多种积分、打折、提成、返利模式',
+          description: '多年电商O2O、活动营销、客户管理和精准分析等研发经验',
           icon: 'icon-people'
         },
         {
           label: '关于使用',
           value: 'use',
-          description: '一看就会的会员收银软件、视频介绍、操作说明',
+          description: '一看就会的营销CRM系统、视频介绍、操作说明',
           icon: 'icon-card'
         },
         {
