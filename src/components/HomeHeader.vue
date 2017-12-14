@@ -91,7 +91,7 @@ export default {
     return {
       msg: 'home-header',
       selectedTab: '',
-      href: 'http://test.xiaovbao.cn/login',
+      href: 'http://manager.xiaovbao.cn/login',
       activeIndex2: '1',
       showSoftwares: false,
       timeId: null

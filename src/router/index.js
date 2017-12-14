@@ -24,69 +24,89 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  routes: [{
-    path: '/',
-    name: 'index',
-    component: Index
-  }, {
-    path: '/ruanjianjieshao',
-    name: 'ruanjianjieshao',
-    component: Ruanjianjieshao
-  }, {
-    path: '/zhihuishangquan',
-    name: 'zhihuishangquan',
-    component: Zhihuishangquan
-  }, {
-    path: '/zhihuihuizhan',
-    name: 'zhihuihuizhan',
-    component: Zhihuihuizhan
-  }, {
-    path: '/shangjiaban',
-    name: 'shangjiaban',
-    component: Shangjiaban
-  }, {
-    path: '/liansuoban',
-    name: 'liansuoban',
-    component: Liansuoban
-  }, {
-    path: '/shangjialianmeng',
-    name: 'shangjialianmeng',
-    component: Shangjialianmeng
-  }, {
-    path: '/jiaoyupeixun',
-    name: 'jiaoyupeixun',
-    component: Jiaoyupeixun
-  }, {
-    path: '/jiudianshangcheng',
-    name: 'jiudianshangcheng',
-    component: Jiudianshangcheng
-  }, {
-    path: '/chaoshishangcheng',
-    name: 'chaoshishangcheng',
-    component: Chaoshishangcheng
-  }, {
-    path: '/ruanjiangongneng',
-    name: 'ruanjiangongneng',
-    component: Ruanjiangongneng
-  }, {
-    path: '/yingjianjieshao',
-    name: 'yingjianjieshao',
-    component: Yingjianjieshao
-  }, {
-    path: '/kehuanli',
-    name: 'kehuanli',
-    component: Kehuanli
-  }, {
-    path: '/qudaodaili',
-    name: 'qudaodaili',
-    component: Qudaodaili
-  }, {
-    path: '/dingzhikaifa',
-    name: 'dingzhikaifa',
-    component: Dingzhikaifa
-  }, {
-    path: '/gongsijianjie',
-    name: 'gongsijianjie',
-    component: Gongsijianjie
-  }]
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  },
+  routes: [
+    {
+      path: '/',
+      name: 'index',
+      component: Index
+    },
+    {
+      path: '/ruanjianjieshao',
+      name: 'ruanjianjieshao',
+      component: Ruanjianjieshao
+    },
+    {
+      path: '/zhihuishangquan',
+      name: 'zhihuishangquan',
+      component: Zhihuishangquan
+    },
+    {
+      path: '/zhihuihuizhan',
+      name: 'zhihuihuizhan',
+      component: Zhihuihuizhan
+    },
+    {
+      path: '/shangjiaban',
+      name: 'shangjiaban',
+      component: Shangjiaban
+    },
+    {
+      path: '/liansuoban',
+      name: 'liansuoban',
+      component: Liansuoban
+    },
+    {
+      path: '/shangjialianmeng',
+      name: 'shangjialianmeng',
+      component: Shangjialianmeng
+    },
+    {
+      path: '/jiaoyupeixun',
+      name: 'jiaoyupeixun',
+      component: Jiaoyupeixun
+    },
+    {
+      path: '/jiudianshangcheng',
+      name: 'jiudianshangcheng',
+      component: Jiudianshangcheng
+    },
+    {
+      path: '/chaoshishangcheng',
+      name: 'chaoshishangcheng',
+      component: Chaoshishangcheng
+    },
+    {
+      path: '/ruanjiangongneng',
+      name: 'ruanjiangongneng',
+      component: Ruanjiangongneng
+    },
+    {
+      path: '/yingjianjieshao',
+      name: 'yingjianjieshao',
+      component: Yingjianjieshao
+    },
+    {
+      path: '/kehuanli',
+      name: 'kehuanli',
+      component: Kehuanli
+    },
+    {
+      path: '/qudaodaili',
+      name: 'qudaodaili',
+      component: Qudaodaili
+    },
+    {
+      path: '/dingzhikaifa',
+      name: 'dingzhikaifa',
+      component: Dingzhikaifa
+    },
+    {
+      path: '/gongsijianjie',
+      name: 'gongsijianjie',
+      component: Gongsijianjie
+    }
+  ]
 })
